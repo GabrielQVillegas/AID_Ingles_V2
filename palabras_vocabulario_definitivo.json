@@ -44,7 +44,7 @@
   {
     "id": "eng-0008",
     "ingles": "MOUTH",
-    "pronunciacion": "MAUZ",
+    "pronunciacion": "MAUTH",
     "espanol": "BOCA"
   },
   {
@@ -74,7 +74,7 @@
   {
     "id": "eng-0013",
     "ingles": "COUCH",
-    "pronunciacion": "COUCH",
+    "pronunciacion": "CAUCH",
     "espanol": "SOFA"
   },
   {
@@ -86,7 +86,7 @@
   {
     "id": "eng-0015",
     "ingles": "DRAWER",
-    "pronunciacion": "DROHUER",
+    "pronunciacion": "DROR",
     "espanol": "CAJÓN"
   },
   {
@@ -200,7 +200,7 @@
   {
     "id": "eng-0034",
     "ingles": "CHOCOLATE",
-    "pronunciacion": "CHOCOLEIT",
+    "pronunciacion": "CHOKLET",
     "espanol": "CHOCOLATE"
   },
   {
@@ -404,7 +404,7 @@
   {
     "id": "eng-0068",
     "ingles": "THUMB",
-    "pronunciacion": "ZAMB",
+    "pronunciacion": "ZAM",
     "espanol": "DEDO PULGAR"
   },
   {
@@ -452,7 +452,7 @@
   {
     "id": "eng-0076",
     "ingles": "VEIN",
-    "pronunciacion": "BEIN",
+    "pronunciacion": "VEIN",
     "espanol": "VENA"
   },
   {
@@ -464,7 +464,7 @@
   {
     "id": "eng-0078",
     "ingles": "THROAT",
-    "pronunciacion": "ZROUT",
+    "pronunciacion": "THROUT",
     "espanol": "GARGANTA"
   },
   {
