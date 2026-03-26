@@ -1,0 +1,21 @@
+{
+  "name": "AID Ingles",
+  "short_name": "AID",
+  "version": "2.1",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "icon-192_V1.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512_V1.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

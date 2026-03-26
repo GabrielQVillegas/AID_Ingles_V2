@@ -1,0 +1,2300 @@
+[
+  {
+    "id": "eng-0001",
+    "ingles": "WALL",
+    "pronunciacion": "UOL",
+    "espanol": "PARED"
+  },
+  {
+    "id": "eng-0002",
+    "ingles": "BACKPACK",
+    "pronunciacion": "BACPAC",
+    "espanol": "MOCHILA"
+  },
+  {
+    "id": "eng-0003",
+    "ingles": "TEETH",
+    "pronunciacion": "TIZ",
+    "espanol": "DIENTES"
+  },
+  {
+    "id": "eng-0004",
+    "ingles": "DOOR",
+    "pronunciacion": "DOR",
+    "espanol": "PUERTA"
+  },
+  {
+    "id": "eng-0005",
+    "ingles": "WINDOW",
+    "pronunciacion": "WINDOU",
+    "espanol": "VENTANA"
+  },
+  {
+    "id": "eng-0006",
+    "ingles": "LAPTOP",
+    "pronunciacion": "LAPTOP",
+    "espanol": "PORTATIL"
+  },
+  {
+    "id": "eng-0007",
+    "ingles": "KEY",
+    "pronunciacion": "KI",
+    "espanol": "LLAVE"
+  },
+  {
+    "id": "eng-0008",
+    "ingles": "MOUTH",
+    "pronunciacion": "MAUZ",
+    "espanol": "BOCA"
+  },
+  {
+    "id": "eng-0009",
+    "ingles": "EYE",
+    "pronunciacion": "AY",
+    "espanol": "OJO"
+  },
+  {
+    "id": "eng-0010",
+    "ingles": "CHIN",
+    "pronunciacion": "CHIN",
+    "espanol": "MENTON"
+  },
+  {
+    "id": "eng-0011",
+    "ingles": "SHOULDER",
+    "pronunciacion": "SHOULDER",
+    "espanol": "HOMBRO"
+  },
+  {
+    "id": "eng-0012",
+    "ingles": "LEG",
+    "pronunciacion": "LEG",
+    "espanol": "PIERNA"
+  },
+  {
+    "id": "eng-0013",
+    "ingles": "COUCH",
+    "pronunciacion": "COUCH",
+    "espanol": "SOFA"
+  },
+  {
+    "id": "eng-0014",
+    "ingles": "SCREEN",
+    "pronunciacion": "SCRIN",
+    "espanol": "PANTALLA"
+  },
+  {
+    "id": "eng-0015",
+    "ingles": "DRAWER",
+    "pronunciacion": "DROHUER",
+    "espanol": "CAJÓN"
+  },
+  {
+    "id": "eng-0016",
+    "ingles": "EAR",
+    "pronunciacion": "IR",
+    "espanol": "OREJA"
+  },
+  {
+    "id": "eng-0017",
+    "ingles": "HEAD",
+    "pronunciacion": "HED",
+    "espanol": "CABEZA"
+  },
+  {
+    "id": "eng-0018",
+    "ingles": "TONGUE",
+    "pronunciacion": "TONG",
+    "espanol": "LENGUA"
+  },
+  {
+    "id": "eng-0019",
+    "ingles": "ARM",
+    "pronunciacion": "ARM",
+    "espanol": "BRAZO"
+  },
+  {
+    "id": "eng-0020",
+    "ingles": "FOOT",
+    "pronunciacion": "FUT",
+    "espanol": "PIE"
+  },
+  {
+    "id": "eng-0021",
+    "ingles": "KNEE",
+    "pronunciacion": "NI",
+    "espanol": "RODILLA"
+  },
+  {
+    "id": "eng-0022",
+    "ingles": "BACK",
+    "pronunciacion": "BAC",
+    "espanol": "ESPALDA"
+  },
+  {
+    "id": "eng-0023",
+    "ingles": "BREAD",
+    "pronunciacion": "BRED",
+    "espanol": "PAN"
+  },
+  {
+    "id": "eng-0024",
+    "ingles": "MEAT",
+    "pronunciacion": "MIT",
+    "espanol": "CARNE"
+  },
+  {
+    "id": "eng-0025",
+    "ingles": "EGG",
+    "pronunciacion": "EGG",
+    "espanol": "HUEVO"
+  },
+  {
+    "id": "eng-0026",
+    "ingles": "JAM",
+    "pronunciacion": "YEM",
+    "espanol": "MERMELADA"
+  },
+  {
+    "id": "eng-0027",
+    "ingles": "MILK",
+    "pronunciacion": "MILK",
+    "espanol": "LECHE"
+  },
+  {
+    "id": "eng-0028",
+    "ingles": "CHEESE",
+    "pronunciacion": "CHIS",
+    "espanol": "QUESO"
+  },
+  {
+    "id": "eng-0029",
+    "ingles": "FISH",
+    "pronunciacion": "FISH",
+    "espanol": "PEZ"
+  },
+  {
+    "id": "eng-0030",
+    "ingles": "HONEY",
+    "pronunciacion": "HONY",
+    "espanol": "MIEL"
+  },
+  {
+    "id": "eng-0031",
+    "ingles": "RICE",
+    "pronunciacion": "RAIS",
+    "espanol": "ARROZ"
+  },
+  {
+    "id": "eng-0032",
+    "ingles": "YOGHURT",
+    "pronunciacion": "YOGURT",
+    "espanol": "YOGURT"
+  },
+  {
+    "id": "eng-0033",
+    "ingles": "CHIPS",
+    "pronunciacion": "CHIPS",
+    "espanol": "PATATAS (de bolsa)"
+  },
+  {
+    "id": "eng-0034",
+    "ingles": "CHOCOLATE",
+    "pronunciacion": "CHOCOLEIT",
+    "espanol": "CHOCOLATE"
+  },
+  {
+    "id": "eng-0035",
+    "ingles": "SOUP",
+    "pronunciacion": "SUP",
+    "espanol": "SOPA"
+  },
+  {
+    "id": "eng-0036",
+    "ingles": "COKE",
+    "pronunciacion": "COUK",
+    "espanol": "COCACOLA"
+  },
+  {
+    "id": "eng-0037",
+    "ingles": "CORNFLACKES",
+    "pronunciacion": "CORNFLEIKS",
+    "espanol": "CEREALES"
+  },
+  {
+    "id": "eng-0038",
+    "ingles": "CHICKEN",
+    "pronunciacion": "CHICKEN",
+    "espanol": "POLLO"
+  },
+  {
+    "id": "eng-0039",
+    "ingles": "HAMBURGER",
+    "pronunciacion": "HAMBURGUER",
+    "espanol": "HAMBURGUESA"
+  },
+  {
+    "id": "eng-0040",
+    "ingles": "ICE CREAM",
+    "pronunciacion": "AIS CRIM",
+    "espanol": "HELADO"
+  },
+  {
+    "id": "eng-0041",
+    "ingles": "OIL",
+    "pronunciacion": "OIL",
+    "espanol": "ACEITE"
+  },
+  {
+    "id": "eng-0042",
+    "ingles": "OMELETTE",
+    "pronunciacion": "OMELET",
+    "espanol": "TORTILLA"
+  },
+  {
+    "id": "eng-0043",
+    "ingles": "PIZZA",
+    "pronunciacion": "PIZZA",
+    "espanol": "PIZZA"
+  },
+  {
+    "id": "eng-0044",
+    "ingles": "SAUSAGE",
+    "pronunciacion": "SOSECH",
+    "espanol": "SALCHICHAS"
+  },
+  {
+    "id": "eng-0045",
+    "ingles": "SHRIMP",
+    "pronunciacion": "SHRIMP",
+    "espanol": "GAMBA"
+  },
+  {
+    "id": "eng-0046",
+    "ingles": "TOAST",
+    "pronunciacion": "TOUST",
+    "espanol": "TOSTADA"
+  },
+  {
+    "id": "eng-0047",
+    "ingles": "APPLE",
+    "pronunciacion": "APOL",
+    "espanol": "MANZANA"
+  },
+  {
+    "id": "eng-0048",
+    "ingles": "CARROT",
+    "pronunciacion": "CARROT",
+    "espanol": "ZANAHORIA"
+  },
+  {
+    "id": "eng-0049",
+    "ingles": "ONION",
+    "pronunciacion": "ONION",
+    "espanol": "CEBOLLA"
+  },
+  {
+    "id": "eng-0050",
+    "ingles": "MUFFIN",
+    "pronunciacion": "MAFIN",
+    "espanol": "MAGDALENA"
+  },
+  {
+    "id": "eng-0051",
+    "ingles": "BUTTER",
+    "pronunciacion": "BATER",
+    "espanol": "MANTEQUILLA"
+  },
+  {
+    "id": "eng-0052",
+    "ingles": "PEA",
+    "pronunciacion": "PI",
+    "espanol": "GUISANTE"
+  },
+  {
+    "id": "eng-0053",
+    "ingles": "SUGAR",
+    "pronunciacion": "SHUGAR",
+    "espanol": "AZÚCAR"
+  },
+  {
+    "id": "eng-0054",
+    "ingles": "TEA",
+    "pronunciacion": "TI",
+    "espanol": "TÉ"
+  },
+  {
+    "id": "eng-0055",
+    "ingles": "PEANUT",
+    "pronunciacion": "PINAT",
+    "espanol": "CACAHUETE"
+  },
+  {
+    "id": "eng-0056",
+    "ingles": "GRAPES",
+    "pronunciacion": "GREIPS",
+    "espanol": "UVAS"
+  },
+  {
+    "id": "eng-0057",
+    "ingles": "NOSE",
+    "pronunciacion": "NOUS",
+    "espanol": "NARIZ"
+  },
+  {
+    "id": "eng-0058",
+    "ingles": "CHEEK",
+    "pronunciacion": "CHIK",
+    "espanol": "MEJILLA"
+  },
+  {
+    "id": "eng-0059",
+    "ingles": "NOSTRIL",
+    "pronunciacion": "NOSTRIL",
+    "espanol": "FOSA NASAL"
+  },
+  {
+    "id": "eng-0060",
+    "ingles": "EYEBROW",
+    "pronunciacion": "AIBRAU",
+    "espanol": "CEJA"
+  },
+  {
+    "id": "eng-0061",
+    "ingles": "EYELASH",
+    "pronunciacion": "AILASH",
+    "espanol": "PESTAÑA"
+  },
+  {
+    "id": "eng-0062",
+    "ingles": "LIPS",
+    "pronunciacion": "LIPS",
+    "espanol": "LABIOS"
+  },
+  {
+    "id": "eng-0063",
+    "ingles": "PALM",
+    "pronunciacion": "PALM",
+    "espanol": "PALMA DE MANO"
+  },
+  {
+    "id": "eng-0064",
+    "ingles": "FINGER",
+    "pronunciacion": "FINGUER",
+    "espanol": "DEDO"
+  },
+  {
+    "id": "eng-0065",
+    "ingles": "WRIST",
+    "pronunciacion": "WRIST",
+    "espanol": "MUÑECA (parte del cuerpo)"
+  },
+  {
+    "id": "eng-0066",
+    "ingles": "FOREARM",
+    "pronunciacion": "FORARM",
+    "espanol": "ANTEBRAZO"
+  },
+  {
+    "id": "eng-0067",
+    "ingles": "ELBOW",
+    "pronunciacion": "ELBOU",
+    "espanol": "CODO"
+  },
+  {
+    "id": "eng-0068",
+    "ingles": "THUMB",
+    "pronunciacion": "ZAMB",
+    "espanol": "DEDO PULGAR"
+  },
+  {
+    "id": "eng-0069",
+    "ingles": "NAIL",
+    "pronunciacion": "NEIL",
+    "espanol": "UÑA"
+  },
+  {
+    "id": "eng-0070",
+    "ingles": "ANKLE",
+    "pronunciacion": "ANQUEL",
+    "espanol": "TOBILLO"
+  },
+  {
+    "id": "eng-0071",
+    "ingles": "CALF",
+    "pronunciacion": "CALF",
+    "espanol": "GEMELO (PIERNA)"
+  },
+  {
+    "id": "eng-0072",
+    "ingles": "HEEL",
+    "pronunciacion": "JIL",
+    "espanol": "TALÓN"
+  },
+  {
+    "id": "eng-0073",
+    "ingles": "TOE",
+    "pronunciacion": "TOU",
+    "espanol": "DEDOS DEL PIE"
+  },
+  {
+    "id": "eng-0074",
+    "ingles": "HEART",
+    "pronunciacion": "HART",
+    "espanol": "CORAZÓN"
+  },
+  {
+    "id": "eng-0075",
+    "ingles": "LUNG",
+    "pronunciacion": "LANG",
+    "espanol": "PULMÓN"
+  },
+  {
+    "id": "eng-0076",
+    "ingles": "VEIN",
+    "pronunciacion": "BEIN",
+    "espanol": "VENA"
+  },
+  {
+    "id": "eng-0077",
+    "ingles": "BRAIN",
+    "pronunciacion": "BREIN",
+    "espanol": "CEREBRO"
+  },
+  {
+    "id": "eng-0078",
+    "ingles": "THROAT",
+    "pronunciacion": "ZROUT",
+    "espanol": "GARGANTA"
+  },
+  {
+    "id": "eng-0079",
+    "ingles": "LIVER",
+    "pronunciacion": "LIVER",
+    "espanol": "HÍGADO"
+  },
+  {
+    "id": "eng-0080",
+    "ingles": "STOMACH",
+    "pronunciacion": "STOMAC",
+    "espanol": "ESTOMAGO"
+  },
+  {
+    "id": "eng-0081",
+    "ingles": "KIDNEY",
+    "pronunciacion": "KIDNI",
+    "espanol": "RIÑÓN"
+  },
+  {
+    "id": "eng-0082",
+    "ingles": "SKELETON",
+    "pronunciacion": "SKELETON",
+    "espanol": "ESQUELETO"
+  },
+  {
+    "id": "eng-0083",
+    "ingles": "RIB",
+    "pronunciacion": "RIP",
+    "espanol": "COSTILLA"
+  },
+  {
+    "id": "eng-0084",
+    "ingles": "ARM",
+    "pronunciacion": "ARM",
+    "espanol": "BRAZO"
+  },
+  {
+    "id": "eng-0085",
+    "ingles": "BONE",
+    "pronunciacion": "BOUN",
+    "espanol": "HUESO"
+  },
+  {
+    "id": "eng-0086",
+    "ingles": "SKIN",
+    "pronunciacion": "SKIN",
+    "espanol": "PIEL"
+  },
+  {
+    "id": "eng-0087",
+    "ingles": "NECK",
+    "pronunciacion": "NEC",
+    "espanol": "CUELLO"
+  },
+  {
+    "id": "eng-0088",
+    "ingles": "WRINKLE",
+    "pronunciacion": "WRINKEL",
+    "espanol": "ARRUGA (corporal)"
+  },
+  {
+    "id": "eng-0089",
+    "ingles": "HAIR",
+    "pronunciacion": "JER",
+    "espanol": "PELO"
+  },
+  {
+    "id": "eng-0090",
+    "ingles": "FACE",
+    "pronunciacion": "FEIS",
+    "espanol": "CARA"
+  },
+  {
+    "id": "eng-0091",
+    "ingles": "WAIST",
+    "pronunciacion": "WEIST",
+    "espanol": "CINTURA"
+  },
+  {
+    "id": "eng-0092",
+    "ingles": "BEANS",
+    "pronunciacion": "BINS",
+    "espanol": "JUDÍAS"
+  },
+  {
+    "id": "eng-0093",
+    "ingles": "CHERRY",
+    "pronunciacion": "CHERRY",
+    "espanol": "CEREZA"
+  },
+  {
+    "id": "eng-0094",
+    "ingles": "BEER",
+    "pronunciacion": "BIER",
+    "espanol": "CERVEZA"
+  },
+  {
+    "id": "eng-0095",
+    "ingles": "WINE",
+    "pronunciacion": "WAIN",
+    "espanol": "VINO"
+  },
+  {
+    "id": "eng-0096",
+    "ingles": "SALAD",
+    "pronunciacion": "SALAD",
+    "espanol": "ENSALADA"
+  },
+  {
+    "id": "eng-0097",
+    "ingles": "AVOCADO",
+    "pronunciacion": "AVOCADO",
+    "espanol": "AGUACATE"
+  },
+  {
+    "id": "eng-0098",
+    "ingles": "JUICE",
+    "pronunciacion": "YUS",
+    "espanol": "ZUMO"
+  },
+  {
+    "id": "eng-0099",
+    "ingles": "CORN",
+    "pronunciacion": "CORN",
+    "espanol": "MAÍZ"
+  },
+  {
+    "id": "eng-0100",
+    "ingles": "JELLY",
+    "pronunciacion": "YELY",
+    "espanol": "GELATINA"
+  },
+  {
+    "id": "eng-0101",
+    "ingles": "PEACH",
+    "pronunciacion": "PICH",
+    "espanol": "MELOCONTÓN"
+  },
+  {
+    "id": "eng-0102",
+    "ingles": "TURKEY",
+    "pronunciacion": "TARKI",
+    "espanol": "PAVO"
+  },
+  {
+    "id": "eng-0103",
+    "ingles": "PEPPER",
+    "pronunciacion": "PEPPER",
+    "espanol": "PIMIENTA"
+  },
+  {
+    "id": "eng-0104",
+    "ingles": "GUM",
+    "pronunciacion": "GAM",
+    "espanol": "CHICLE"
+  },
+  {
+    "id": "eng-0105",
+    "ingles": "PIE",
+    "pronunciacion": "PAI",
+    "espanol": "TARTA"
+  },
+  {
+    "id": "eng-0106",
+    "ingles": "MUSHROOMS",
+    "pronunciacion": "MASHRUMS",
+    "espanol": "CHAMPIÑONES"
+  },
+  {
+    "id": "eng-0107",
+    "ingles": "BACON",
+    "pronunciacion": "BEICON",
+    "espanol": "BACON"
+  },
+  {
+    "id": "eng-0108",
+    "ingles": "NUTS",
+    "pronunciacion": "NATS",
+    "espanol": "NUECES"
+  },
+  {
+    "id": "eng-0109",
+    "ingles": "STRAWBERRY",
+    "pronunciacion": "ESTROBERY",
+    "espanol": "FRESAS"
+  },
+  {
+    "id": "eng-0110",
+    "ingles": "POTATOES",
+    "pronunciacion": "POTEITOUS",
+    "espanol": "PATATAS"
+  },
+  {
+    "id": "eng-0111",
+    "ingles": "CANDY",
+    "pronunciacion": "CANDY",
+    "espanol": "CARAMELO"
+  },
+  {
+    "id": "eng-0112",
+    "ingles": "PORK",
+    "pronunciacion": "PORK",
+    "espanol": "CERDO"
+  },
+  {
+    "id": "eng-0113",
+    "ingles": "CRAB",
+    "pronunciacion": "CRAB",
+    "espanol": "CANGREJO"
+  },
+  {
+    "id": "eng-0114",
+    "ingles": "STEAK",
+    "pronunciacion": "ESTEIK",
+    "espanol": "FILETE"
+  },
+  {
+    "id": "eng-0115",
+    "ingles": "GARLIC",
+    "pronunciacion": "GARLIC",
+    "espanol": "AJO"
+  },
+  {
+    "id": "eng-0116",
+    "ingles": "WAFFLE",
+    "pronunciacion": "WAFEL",
+    "espanol": "GOFRE"
+  },
+  {
+    "id": "eng-0117",
+    "ingles": "WHIPPED CREAM",
+    "pronunciacion": "WHIP CRIM",
+    "espanol": "NATA"
+  },
+  {
+    "id": "eng-0118",
+    "ingles": "SEAFOOD",
+    "pronunciacion": "SIFUD",
+    "espanol": "MARISCO"
+  },
+  {
+    "id": "eng-0119",
+    "ingles": "NOODLES",
+    "pronunciacion": "NUDELS",
+    "espanol": "FIDEOS"
+  },
+  {
+    "id": "eng-0120",
+    "ingles": "LETTUCE",
+    "pronunciacion": "LETUS",
+    "espanol": "LECHUGA"
+  },
+  {
+    "id": "eng-0121",
+    "ingles": "PANCAKES",
+    "pronunciacion": "PANQUEIKS",
+    "espanol": "TORTITAS"
+  },
+  {
+    "id": "eng-0122",
+    "ingles": "MINT",
+    "pronunciacion": "MINT",
+    "espanol": "MENTA"
+  },
+  {
+    "id": "eng-0123",
+    "ingles": "BANANA",
+    "pronunciacion": "BANANA",
+    "espanol": "BANANA"
+  },
+  {
+    "id": "eng-0124",
+    "ingles": "COCONUT",
+    "pronunciacion": "COCONUT",
+    "espanol": "COCO"
+  },
+  {
+    "id": "eng-0125",
+    "ingles": "FIG",
+    "pronunciacion": "FIG",
+    "espanol": "HIGO"
+  },
+  {
+    "id": "eng-0126",
+    "ingles": "KIWI",
+    "pronunciacion": "KIWI",
+    "espanol": "KIWI"
+  },
+  {
+    "id": "eng-0127",
+    "ingles": "LEMON",
+    "pronunciacion": "LEMON",
+    "espanol": "LIMÓN"
+  },
+  {
+    "id": "eng-0128",
+    "ingles": "LIME",
+    "pronunciacion": "LAIM",
+    "espanol": "LIMA"
+  },
+  {
+    "id": "eng-0129",
+    "ingles": "MANGO",
+    "pronunciacion": "MANGO",
+    "espanol": "MANGO"
+  },
+  {
+    "id": "eng-0130",
+    "ingles": "ORANGE",
+    "pronunciacion": "ORANCH",
+    "espanol": "NARANJA"
+  },
+  {
+    "id": "eng-0131",
+    "ingles": "PEAR",
+    "pronunciacion": "PIR",
+    "espanol": "PERA"
+  },
+  {
+    "id": "eng-0132",
+    "ingles": "MELON",
+    "pronunciacion": "MELON",
+    "espanol": "MELÓN"
+  },
+  {
+    "id": "eng-0133",
+    "ingles": "PINEAPPLE",
+    "pronunciacion": "PAINAPOL",
+    "espanol": "PIÑA"
+  },
+  {
+    "id": "eng-0134",
+    "ingles": "WATERMELON",
+    "pronunciacion": "GUATERMELON",
+    "espanol": "SANDÍA"
+  },
+  {
+    "id": "eng-0135",
+    "ingles": "ANT",
+    "pronunciacion": "ANT",
+    "espanol": "HORMIGA"
+  },
+  {
+    "id": "eng-0136",
+    "ingles": "ANTELOPE",
+    "pronunciacion": "ANTILOUP",
+    "espanol": "ANTÍLOPE"
+  },
+  {
+    "id": "eng-0137",
+    "ingles": "BAT",
+    "pronunciacion": "BAT",
+    "espanol": "MURCIÉLAGO"
+  },
+  {
+    "id": "eng-0138",
+    "ingles": "BEAR",
+    "pronunciacion": "BIER",
+    "espanol": "OSO"
+  },
+  {
+    "id": "eng-0139",
+    "ingles": "BEAVER",
+    "pronunciacion": "BIVER",
+    "espanol": "CASTOR"
+  },
+  {
+    "id": "eng-0140",
+    "ingles": "BEE",
+    "pronunciacion": "BI",
+    "espanol": "ABEJA"
+  },
+  {
+    "id": "eng-0141",
+    "ingles": "BEETLE",
+    "pronunciacion": "BITEL",
+    "espanol": "ESCARABAJO"
+  },
+  {
+    "id": "eng-0142",
+    "ingles": "BIRD",
+    "pronunciacion": "BIRD",
+    "espanol": "PÁJARO"
+  },
+  {
+    "id": "eng-0143",
+    "ingles": "BOAR",
+    "pronunciacion": "BOR",
+    "espanol": "JABALÍ"
+  },
+  {
+    "id": "eng-0144",
+    "ingles": "BULL",
+    "pronunciacion": "BUL",
+    "espanol": "TORO"
+  },
+  {
+    "id": "eng-0145",
+    "ingles": "BUTTERFLY",
+    "pronunciacion": "BATERFLAI",
+    "espanol": "MARIPOSA"
+  },
+  {
+    "id": "eng-0146",
+    "ingles": "CAMEL",
+    "pronunciacion": "CAMEL",
+    "espanol": "CAMELLO"
+  },
+  {
+    "id": "eng-0147",
+    "ingles": "CAT",
+    "pronunciacion": "CAT",
+    "espanol": "GATO"
+  },
+  {
+    "id": "eng-0148",
+    "ingles": "CHICKEN",
+    "pronunciacion": "CHICKEN",
+    "espanol": "POLLO"
+  },
+  {
+    "id": "eng-0149",
+    "ingles": "COCKROACH",
+    "pronunciacion": "COCROUCH",
+    "espanol": "CUCARACHA"
+  },
+  {
+    "id": "eng-0150",
+    "ingles": "COW",
+    "pronunciacion": "CAO",
+    "espanol": "VACA"
+  },
+  {
+    "id": "eng-0151",
+    "ingles": "CRICKET",
+    "pronunciacion": "CRICKET",
+    "espanol": "GRILLO"
+  },
+  {
+    "id": "eng-0152",
+    "ingles": "CROCODILE",
+    "pronunciacion": "CROCODAIL",
+    "espanol": "COCODRILO"
+  },
+  {
+    "id": "eng-0153",
+    "ingles": "DEER",
+    "pronunciacion": "DIR",
+    "espanol": "CIERVO"
+  },
+  {
+    "id": "eng-0154",
+    "ingles": "DOG",
+    "pronunciacion": "DOG",
+    "espanol": "PERRO"
+  },
+  {
+    "id": "eng-0155",
+    "ingles": "DOLPHIN",
+    "pronunciacion": "DOLFIN",
+    "espanol": "DELFÍN"
+  },
+  {
+    "id": "eng-0156",
+    "ingles": "DUCK",
+    "pronunciacion": "DACK",
+    "espanol": "PATO"
+  },
+  {
+    "id": "eng-0157",
+    "ingles": "EAGLE",
+    "pronunciacion": "IGOL",
+    "espanol": "ÁGUILA"
+  },
+  {
+    "id": "eng-0158",
+    "ingles": "ELEPHANT",
+    "pronunciacion": "ELEFANT",
+    "espanol": "ELEFANTE"
+  },
+  {
+    "id": "eng-0159",
+    "ingles": "FLY",
+    "pronunciacion": "FLAI",
+    "espanol": "MOSCA"
+  },
+  {
+    "id": "eng-0160",
+    "ingles": "FROG",
+    "pronunciacion": "FROG",
+    "espanol": "RANA"
+  },
+  {
+    "id": "eng-0161",
+    "ingles": "GIRAFFE",
+    "pronunciacion": "YIRAF",
+    "espanol": "JIRAFA"
+  },
+  {
+    "id": "eng-0162",
+    "ingles": "GORILLA",
+    "pronunciacion": "GORILA",
+    "espanol": "GORILA"
+  },
+  {
+    "id": "eng-0163",
+    "ingles": "GRASSHOPPER",
+    "pronunciacion": "GRASJOPER",
+    "espanol": "SALTAMONTES"
+  },
+  {
+    "id": "eng-0164",
+    "ingles": "HAMSTER",
+    "pronunciacion": "HAMSTER",
+    "espanol": "HAMSTER"
+  },
+  {
+    "id": "eng-0165",
+    "ingles": "LION",
+    "pronunciacion": "LAION",
+    "espanol": "LEÓN"
+  },
+  {
+    "id": "eng-0166",
+    "ingles": "LIZARD",
+    "pronunciacion": "LISARD",
+    "espanol": "LAGARTO"
+  },
+  {
+    "id": "eng-0167",
+    "ingles": "LOBSTER",
+    "pronunciacion": "LOBSTER",
+    "espanol": "LANGOSTA"
+  },
+  {
+    "id": "eng-0168",
+    "ingles": "PARROT",
+    "pronunciacion": "PARROT",
+    "espanol": "LORO"
+  },
+  {
+    "id": "eng-0169",
+    "ingles": "PIG",
+    "pronunciacion": "PIC",
+    "espanol": "CERDO"
+  },
+  {
+    "id": "eng-0170",
+    "ingles": "RABBIT",
+    "pronunciacion": "RABIT",
+    "espanol": "CONEJO"
+  },
+  {
+    "id": "eng-0171",
+    "ingles": "RAT",
+    "pronunciacion": "RAT",
+    "espanol": "RATA"
+  },
+  {
+    "id": "eng-0172",
+    "ingles": "SHARK",
+    "pronunciacion": "SHARK",
+    "espanol": "TIBURÓN"
+  },
+  {
+    "id": "eng-0173",
+    "ingles": "SNAKE",
+    "pronunciacion": "SNEIK",
+    "espanol": "SERPIENTE"
+  },
+  {
+    "id": "eng-0174",
+    "ingles": "SHEEP",
+    "pronunciacion": "SHIP",
+    "espanol": "OVEJA"
+  },
+  {
+    "id": "eng-0175",
+    "ingles": "SPIDER",
+    "pronunciacion": "SPAIDER",
+    "espanol": "ARAÑA"
+  },
+  {
+    "id": "eng-0176",
+    "ingles": "TIGER",
+    "pronunciacion": "TAIGER",
+    "espanol": "TIGRE"
+  },
+  {
+    "id": "eng-0177",
+    "ingles": "WOLF",
+    "pronunciacion": "WOLF",
+    "espanol": "LOBO"
+  },
+  {
+    "id": "eng-0178",
+    "ingles": "BATHROOM",
+    "pronunciacion": "BAZRUM",
+    "espanol": "BAÑO"
+  },
+  {
+    "id": "eng-0179",
+    "ingles": "COMB",
+    "pronunciacion": "COMB",
+    "espanol": "PEINE"
+  },
+  {
+    "id": "eng-0180",
+    "ingles": "DRAIN",
+    "pronunciacion": "DREIN",
+    "espanol": "DESAGÜE"
+  },
+  {
+    "id": "eng-0181",
+    "ingles": "TAP",
+    "pronunciacion": "TAP",
+    "espanol": "GRIFO"
+  },
+  {
+    "id": "eng-0182",
+    "ingles": "HAIRDRYER",
+    "pronunciacion": "JERDRAYER",
+    "espanol": "SECADOR DE PELO"
+  },
+  {
+    "id": "eng-0183",
+    "ingles": "TOWEL",
+    "pronunciacion": "TAWEL",
+    "espanol": "TOALLA"
+  },
+  {
+    "id": "eng-0184",
+    "ingles": "MIRROR",
+    "pronunciacion": "MIRROR",
+    "espanol": "ESPEJO"
+  },
+  {
+    "id": "eng-0185",
+    "ingles": "RAZOR",
+    "pronunciacion": "REISOR",
+    "espanol": "CUCHILLA"
+  },
+  {
+    "id": "eng-0186",
+    "ingles": "SHAMPOO",
+    "pronunciacion": "SHAMPU",
+    "espanol": "CHAMPÚ"
+  },
+  {
+    "id": "eng-0187",
+    "ingles": "SHOWER",
+    "pronunciacion": "SHAWER",
+    "espanol": "DUCHA"
+  },
+  {
+    "id": "eng-0188",
+    "ingles": "SOAP",
+    "pronunciacion": "SOUP",
+    "espanol": "JABÓN"
+  },
+  {
+    "id": "eng-0189",
+    "ingles": "SPONGE",
+    "pronunciacion": "SPONCH",
+    "espanol": "ESPONJA"
+  },
+  {
+    "id": "eng-0190",
+    "ingles": "TOILET",
+    "pronunciacion": "TOILET",
+    "espanol": "VÁTER"
+  },
+  {
+    "id": "eng-0191",
+    "ingles": "ROOM",
+    "pronunciacion": "RUM",
+    "espanol": "HABITACIÓN"
+  },
+  {
+    "id": "eng-0192",
+    "ingles": "BEDROOM",
+    "pronunciacion": "BEDRUM",
+    "espanol": "DORMITORIO"
+  },
+  {
+    "id": "eng-0193",
+    "ingles": "LIVING ROOM",
+    "pronunciacion": "LIVINRUM",
+    "espanol": "COMEDOR"
+  },
+  {
+    "id": "eng-0194",
+    "ingles": "GARAGE",
+    "pronunciacion": "GARASH",
+    "espanol": "GARAJE"
+  },
+  {
+    "id": "eng-0195",
+    "ingles": "KITCHEN",
+    "pronunciacion": "KITCHEN",
+    "espanol": "COCINA"
+  },
+  {
+    "id": "eng-0196",
+    "ingles": "ROOF",
+    "pronunciacion": "RUF",
+    "espanol": "TEJADO"
+  },
+  {
+    "id": "eng-0197",
+    "ingles": "STAIRS",
+    "pronunciacion": "STEIRS",
+    "espanol": "ESCALERAS"
+  },
+  {
+    "id": "eng-0198",
+    "ingles": "TABLE",
+    "pronunciacion": "TEIBOL",
+    "espanol": "MESA"
+  },
+  {
+    "id": "eng-0199",
+    "ingles": "CHAIR",
+    "pronunciacion": "CHEIR",
+    "espanol": "SILLA"
+  },
+  {
+    "id": "eng-0200",
+    "ingles": "FLOOR",
+    "pronunciacion": "FLOR",
+    "espanol": "SUELO"
+  },
+  {
+    "id": "eng-0201",
+    "ingles": "CEILING",
+    "pronunciacion": "SILING",
+    "espanol": "TECHO"
+  },
+  {
+    "id": "eng-0202",
+    "ingles": "CARPET",
+    "pronunciacion": "CARPET",
+    "espanol": "ALFOMBRA"
+  },
+  {
+    "id": "eng-0203",
+    "ingles": "LAMP",
+    "pronunciacion": "LAMP",
+    "espanol": "LÁMPARA"
+  },
+  {
+    "id": "eng-0204",
+    "ingles": "FIREPLACE",
+    "pronunciacion": "FAIRPLEIS",
+    "espanol": "CHIMENEA"
+  },
+  {
+    "id": "eng-0205",
+    "ingles": "LIGHT",
+    "pronunciacion": "LAIT",
+    "espanol": "LUZ"
+  },
+  {
+    "id": "eng-0206",
+    "ingles": "FRIDGE",
+    "pronunciacion": "FRIDG",
+    "espanol": "FRIGORÍFICO"
+  },
+  {
+    "id": "eng-0207",
+    "ingles": "OVEN",
+    "pronunciacion": "OUBEN",
+    "espanol": "HORNO"
+  },
+  {
+    "id": "eng-0208",
+    "ingles": "MICROWAVE",
+    "pronunciacion": "MAICROWEIF",
+    "espanol": "MICROONDAS"
+  },
+  {
+    "id": "eng-0209",
+    "ingles": "WASHING MACHINE",
+    "pronunciacion": "WASHIN MACHIN",
+    "espanol": "LAVADORA"
+  },
+  {
+    "id": "eng-0210",
+    "ingles": "TOASTER",
+    "pronunciacion": "TOUSTER",
+    "espanol": "TOSTADORA"
+  },
+  {
+    "id": "eng-0211",
+    "ingles": "BROOM",
+    "pronunciacion": "BRUM",
+    "espanol": "ESCOBA"
+  },
+  {
+    "id": "eng-0212",
+    "ingles": "SINK",
+    "pronunciacion": "SINK",
+    "espanol": "FREGADERO"
+  },
+  {
+    "id": "eng-0213",
+    "ingles": "PAN",
+    "pronunciacion": "PAN",
+    "espanol": "SARTÉN"
+  },
+  {
+    "id": "eng-0214",
+    "ingles": "BOWL",
+    "pronunciacion": "BOUL",
+    "espanol": "BOL"
+  },
+  {
+    "id": "eng-0215",
+    "ingles": "FORK",
+    "pronunciacion": "FORK",
+    "espanol": "TENEDOR"
+  },
+  {
+    "id": "eng-0216",
+    "ingles": "KNIFE",
+    "pronunciacion": "NAIF",
+    "espanol": "CUCHILLO"
+  },
+  {
+    "id": "eng-0217",
+    "ingles": "SPOON",
+    "pronunciacion": "SPUN",
+    "espanol": "CUCHARA"
+  },
+  {
+    "id": "eng-0218",
+    "ingles": "CUP",
+    "pronunciacion": "CAP",
+    "espanol": "TAZA"
+  },
+  {
+    "id": "eng-0219",
+    "ingles": "GLASS",
+    "pronunciacion": "GLASS",
+    "espanol": "VASO"
+  },
+  {
+    "id": "eng-0220",
+    "ingles": "JUG",
+    "pronunciacion": "LLAG",
+    "espanol": "JARRA"
+  },
+  {
+    "id": "eng-0221",
+    "ingles": "NAPKIN",
+    "pronunciacion": "NAPKIN",
+    "espanol": "SERVILLETA"
+  },
+  {
+    "id": "eng-0222",
+    "ingles": "BED",
+    "pronunciacion": "BET",
+    "espanol": "CAMA"
+  },
+  {
+    "id": "eng-0223",
+    "ingles": "WARDROBE",
+    "pronunciacion": "WARDROF",
+    "espanol": "ARMARIO PARA ROPA"
+  },
+  {
+    "id": "eng-0224",
+    "ingles": "MATTRESS",
+    "pronunciacion": "MATRES",
+    "espanol": "COLCHÓN"
+  },
+  {
+    "id": "eng-0225",
+    "ingles": "PILLOW",
+    "pronunciacion": "PILOU",
+    "espanol": "COJÍN"
+  },
+  {
+    "id": "eng-0226",
+    "ingles": "BLANKET",
+    "pronunciacion": "BLANKET",
+    "espanol": "MANTA"
+  },
+  {
+    "id": "eng-0227",
+    "ingles": "SHEET",
+    "pronunciacion": "SHIIT",
+    "espanol": "SÁBANA"
+  },
+  {
+    "id": "eng-0228",
+    "ingles": "CAR",
+    "pronunciacion": "CAR",
+    "espanol": "COCHE"
+  },
+  {
+    "id": "eng-0229",
+    "ingles": "TAXI",
+    "pronunciacion": "TAKSI",
+    "espanol": "TAXI"
+  },
+  {
+    "id": "eng-0230",
+    "ingles": "BUS",
+    "pronunciacion": "BAS",
+    "espanol": "AUTOBÚS"
+  },
+  {
+    "id": "eng-0231",
+    "ingles": "VAN",
+    "pronunciacion": "VAN",
+    "espanol": "FURGONETA"
+  },
+  {
+    "id": "eng-0232",
+    "ingles": "TRAIN",
+    "pronunciacion": "TREIN",
+    "espanol": "TREN"
+  },
+  {
+    "id": "eng-0233",
+    "ingles": "TRUCK",
+    "pronunciacion": "TRAK",
+    "espanol": "CAMIÓN"
+  },
+  {
+    "id": "eng-0234",
+    "ingles": "SUBWAY",
+    "pronunciacion": "SABWEI",
+    "espanol": "METRO"
+  },
+  {
+    "id": "eng-0235",
+    "ingles": "BICYCLE",
+    "pronunciacion": "BAISIKEL",
+    "espanol": "BICICLETA"
+  },
+  {
+    "id": "eng-0236",
+    "ingles": "MOTORBIKE",
+    "pronunciacion": "MOTORBAIK",
+    "espanol": "MOTOCICLETA"
+  },
+  {
+    "id": "eng-0237",
+    "ingles": "PLANE",
+    "pronunciacion": "PLEIN",
+    "espanol": "AVIÓN"
+  },
+  {
+    "id": "eng-0238",
+    "ingles": "HELICOPTER",
+    "pronunciacion": "HELICOPTER",
+    "espanol": "HELICOPTERO"
+  },
+  {
+    "id": "eng-0239",
+    "ingles": "SHIP",
+    "pronunciacion": "SHIP",
+    "espanol": "BARCO"
+  },
+  {
+    "id": "eng-0240",
+    "ingles": "SHIRT",
+    "pronunciacion": "SHIRT",
+    "espanol": "CAMISA"
+  },
+  {
+    "id": "eng-0241",
+    "ingles": "POLO",
+    "pronunciacion": "POLO",
+    "espanol": "POLO"
+  },
+  {
+    "id": "eng-0242",
+    "ingles": "SWEATER",
+    "pronunciacion": "SUETER",
+    "espanol": "JERSEY"
+  },
+  {
+    "id": "eng-0243",
+    "ingles": "DRESS",
+    "pronunciacion": "DRES",
+    "espanol": "VESTIDO"
+  },
+  {
+    "id": "eng-0244",
+    "ingles": "VEST",
+    "pronunciacion": "VEST",
+    "espanol": "CHALECO"
+  },
+  {
+    "id": "eng-0245",
+    "ingles": "SUIT",
+    "pronunciacion": "SUT",
+    "espanol": "TRAJE"
+  },
+  {
+    "id": "eng-0246",
+    "ingles": "COAT",
+    "pronunciacion": "COUT",
+    "espanol": "ABRIGO"
+  },
+  {
+    "id": "eng-0247",
+    "ingles": "TROUSERS",
+    "pronunciacion": "TROUSERS",
+    "espanol": "PANTALONES"
+  },
+  {
+    "id": "eng-0248",
+    "ingles": "SHORTS",
+    "pronunciacion": "SHORTS",
+    "espanol": "CALZONCILLOS"
+  },
+  {
+    "id": "eng-0249",
+    "ingles": "SLIPPERS",
+    "pronunciacion": "SLIPERS",
+    "espanol": "ZAPATILLAS DE CASA"
+  },
+  {
+    "id": "eng-0250",
+    "ingles": "SHOE",
+    "pronunciacion": "SHU",
+    "espanol": "ZAPATO"
+  },
+  {
+    "id": "eng-0251",
+    "ingles": "SNEAKER",
+    "pronunciacion": "SNIKERS",
+    "espanol": "ZAPATILLAS DEPORTIVAS"
+  },
+  {
+    "id": "eng-0252",
+    "ingles": "SOLE",
+    "pronunciacion": "SOUL",
+    "espanol": "SUELA DEL ZAPATO"
+  },
+  {
+    "id": "eng-0253",
+    "ingles": "FLIP-FLOPS",
+    "pronunciacion": "FLIPFLOPS",
+    "espanol": "CHANCLAS"
+  },
+  {
+    "id": "eng-0254",
+    "ingles": "BATHROBE",
+    "pronunciacion": "BAZROUB",
+    "espanol": "BATA DE BAÑO"
+  },
+  {
+    "id": "eng-0255",
+    "ingles": "SOCKS",
+    "pronunciacion": "SOKS",
+    "espanol": "CALCETINES"
+  },
+  {
+    "id": "eng-0256",
+    "ingles": "BRA",
+    "pronunciacion": "BRA",
+    "espanol": "SUJETADOR"
+  },
+  {
+    "id": "eng-0257",
+    "ingles": "KNICKERS",
+    "pronunciacion": "NIKERS",
+    "espanol": "BRAGAS(ROPA INTIMA FEM)"
+  },
+  {
+    "id": "eng-0258",
+    "ingles": "BELT",
+    "pronunciacion": "BELT",
+    "espanol": "CINTURÓN"
+  },
+  {
+    "id": "eng-0259",
+    "ingles": "TIE",
+    "pronunciacion": "TAI",
+    "espanol": "CORBATA"
+  },
+  {
+    "id": "eng-0260",
+    "ingles": "GLOVE",
+    "pronunciacion": "GLOF",
+    "espanol": "GUANTE"
+  },
+  {
+    "id": "eng-0261",
+    "ingles": "SCARF",
+    "pronunciacion": "SCARF",
+    "espanol": "BUFANDA"
+  },
+  {
+    "id": "eng-0262",
+    "ingles": "CAP",
+    "pronunciacion": "CAP",
+    "espanol": "GORRA"
+  },
+  {
+    "id": "eng-0263",
+    "ingles": "HAT",
+    "pronunciacion": "JAT",
+    "espanol": "SOMBRERO"
+  },
+  {
+    "id": "eng-0264",
+    "ingles": "HELMET",
+    "pronunciacion": "JELMET",
+    "espanol": "CASCO"
+  },
+  {
+    "id": "eng-0265",
+    "ingles": "JACKET",
+    "pronunciacion": "LLAKET",
+    "espanol": "CHAQUETA"
+  },
+  {
+    "id": "eng-0266",
+    "ingles": "CLASSROOM",
+    "pronunciacion": "CLASRUM",
+    "espanol": "CLASE"
+  },
+  {
+    "id": "eng-0267",
+    "ingles": "OFFICE",
+    "pronunciacion": "OFIS",
+    "espanol": "OFICINA"
+  },
+  {
+    "id": "eng-0268",
+    "ingles": "BAG",
+    "pronunciacion": "BAC",
+    "espanol": "BOLSA"
+  },
+  {
+    "id": "eng-0269",
+    "ingles": "BOOK",
+    "pronunciacion": "BUK",
+    "espanol": "LIBRO"
+  },
+  {
+    "id": "eng-0270",
+    "ingles": "CHALK",
+    "pronunciacion": "CHALK",
+    "espanol": "TIZA"
+  },
+  {
+    "id": "eng-0271",
+    "ingles": "DESK",
+    "pronunciacion": "DESK",
+    "espanol": "ESCRITORIO"
+  },
+  {
+    "id": "eng-0272",
+    "ingles": "FOLDER",
+    "pronunciacion": "FOLDER",
+    "espanol": "CARPETA"
+  },
+  {
+    "id": "eng-0273",
+    "ingles": "PENCIL",
+    "pronunciacion": "PENSIL",
+    "espanol": "LÁPIZ"
+  },
+  {
+    "id": "eng-0274",
+    "ingles": "NOTEBOOK",
+    "pronunciacion": "NOUTBUK",
+    "espanol": "LIBRETA"
+  },
+  {
+    "id": "eng-0275",
+    "ingles": "AUNT",
+    "pronunciacion": "ONT",
+    "espanol": "TIA"
+  },
+  {
+    "id": "eng-0276",
+    "ingles": "BOYFRIEND",
+    "pronunciacion": "BOIFREND",
+    "espanol": "NOVIO"
+  },
+  {
+    "id": "eng-0277",
+    "ingles": "BROTHER",
+    "pronunciacion": "BRODER",
+    "espanol": "HERMANO"
+  },
+  {
+    "id": "eng-0278",
+    "ingles": "COUSIN",
+    "pronunciacion": "COSIN",
+    "espanol": "PRIMO"
+  },
+  {
+    "id": "eng-0279",
+    "ingles": "FATHER",
+    "pronunciacion": "FADER",
+    "espanol": "PADRE"
+  },
+  {
+    "id": "eng-0280",
+    "ingles": "MOTHER",
+    "pronunciacion": "MODER",
+    "espanol": "MADRE"
+  },
+  {
+    "id": "eng-0281",
+    "ingles": "GRANDMOTHER",
+    "pronunciacion": "GRANDMODER",
+    "espanol": "ABUELA"
+  },
+  {
+    "id": "eng-0282",
+    "ingles": "GRANDFATHER",
+    "pronunciacion": "GRANDFADER",
+    "espanol": "ABUELO"
+  },
+  {
+    "id": "eng-0283",
+    "ingles": "HUSBAND",
+    "pronunciacion": "HOSBAND",
+    "espanol": "MARIDO"
+  },
+  {
+    "id": "eng-0284",
+    "ingles": "WIFE",
+    "pronunciacion": "WAIF",
+    "espanol": "MUJER"
+  },
+  {
+    "id": "eng-0285",
+    "ingles": "UNCLE",
+    "pronunciacion": "ANKEL",
+    "espanol": "TIO"
+  },
+  {
+    "id": "eng-0286",
+    "ingles": "SISTER",
+    "pronunciacion": "SISTER",
+    "espanol": "HERMANA"
+  },
+  {
+    "id": "eng-0287",
+    "ingles": "GIRLFRIEND",
+    "pronunciacion": "GUERLFREND",
+    "espanol": "NOVIA"
+  },
+  {
+    "id": "eng-0288",
+    "ingles": "DRINK",
+    "pronunciacion": "DRINK",
+    "espanol": "BEBIDA"
+  },
+  {
+    "id": "eng-0289",
+    "ingles": "COFFEE",
+    "pronunciacion": "COFI",
+    "espanol": "CAFÉ"
+  },
+  {
+    "id": "eng-0290",
+    "ingles": "SODA",
+    "pronunciacion": "SODA",
+    "espanol": "REFRESCO"
+  },
+  {
+    "id": "eng-0291",
+    "ingles": "WATER",
+    "pronunciacion": "WOTER",
+    "espanol": "AGUA"
+  },
+  {
+    "id": "eng-0292",
+    "ingles": "SMOOTHIE",
+    "pronunciacion": "SMUZI",
+    "espanol": "BATIDO"
+  },
+  {
+    "id": "eng-0293",
+    "ingles": "ALCOHOL",
+    "pronunciacion": "ALCOHOL",
+    "espanol": "ALCOHOL"
+  },
+  {
+    "id": "eng-0294",
+    "ingles": "CHAMPAGNE",
+    "pronunciacion": "SHAMPAN",
+    "espanol": "CHAMPÁN"
+  },
+  {
+    "id": "eng-0295",
+    "ingles": "DIPLOMA",
+    "pronunciacion": "DIPLOMA",
+    "espanol": "DIPLOMA"
+  },
+  {
+    "id": "eng-0296",
+    "ingles": "GRADE",
+    "pronunciacion": "GREID",
+    "espanol": "NOTA, CALIFICACIÓN"
+  },
+  {
+    "id": "eng-0297",
+    "ingles": "PRINCIPAL",
+    "pronunciacion": "PRINSIPOL",
+    "espanol": "DIRECTOR DE ESCUELA O INSTITUTO"
+  },
+  {
+    "id": "eng-0298",
+    "ingles": "KINDERGARTEN",
+    "pronunciacion": "KINDERGARTEN",
+    "espanol": "GUARDERIA"
+  },
+  {
+    "id": "eng-0299",
+    "ingles": "FACULTY",
+    "pronunciacion": "FACULTI",
+    "espanol": "FACULTAD"
+  },
+  {
+    "id": "eng-0300",
+    "ingles": "SUBJECT",
+    "pronunciacion": "SABJECT",
+    "espanol": "MATERIA, ASIGNATURA"
+  },
+  {
+    "id": "eng-0301",
+    "ingles": "SEMESTER",
+    "pronunciacion": "SEMESTER",
+    "espanol": "SEMESTRE"
+  },
+  {
+    "id": "eng-0302",
+    "ingles": "HOMEWORK",
+    "pronunciacion": "HOMWORK",
+    "espanol": "DEBERES, TAREAS"
+  },
+  {
+    "id": "eng-0303",
+    "ingles": "BRIEFCASE",
+    "pronunciacion": "BRIFKEIS",
+    "espanol": "MALETIN"
+  },
+  {
+    "id": "eng-0304",
+    "ingles": "PEN",
+    "pronunciacion": "PEN",
+    "espanol": "BOLIGRAFO"
+  },
+  {
+    "id": "eng-0305",
+    "ingles": "COMPUTER",
+    "pronunciacion": "COMPIUTER",
+    "espanol": "ORDENADOR"
+  },
+  {
+    "id": "eng-0306",
+    "ingles": "ENVELOPE",
+    "pronunciacion": "ENVELOUP",
+    "espanol": "SOBRE"
+  },
+  {
+    "id": "eng-0307",
+    "ingles": "FAX",
+    "pronunciacion": "FAKS",
+    "espanol": "FAX"
+  },
+  {
+    "id": "eng-0308",
+    "ingles": "FILE",
+    "pronunciacion": "FAIL",
+    "espanol": "ARCHIVO"
+  },
+  {
+    "id": "eng-0309",
+    "ingles": "GLUE",
+    "pronunciacion": "GLU",
+    "espanol": "PEGAMENTO"
+  },
+  {
+    "id": "eng-0310",
+    "ingles": "KEYBOARD",
+    "pronunciacion": "KIBORD",
+    "espanol": "TECLADO"
+  },
+  {
+    "id": "eng-0311",
+    "ingles": "MOUSE",
+    "pronunciacion": "MAUS",
+    "espanol": "RATÓN"
+  },
+  {
+    "id": "eng-0312",
+    "ingles": "INK",
+    "pronunciacion": "INC",
+    "espanol": "TINTA"
+  },
+  {
+    "id": "eng-0313",
+    "ingles": "HIGHLIGHTER",
+    "pronunciacion": "HAIGLIGHTER",
+    "espanol": "ROTULADOR FOSFORESCENTE"
+  },
+  {
+    "id": "eng-0314",
+    "ingles": "MONITOR",
+    "pronunciacion": "MONITOR",
+    "espanol": "MONITOR"
+  },
+  {
+    "id": "eng-0315",
+    "ingles": "RUBBER",
+    "pronunciacion": "RABER",
+    "espanol": "GOMA DE BORRAR"
+  },
+  {
+    "id": "eng-0316",
+    "ingles": "SCISSORS",
+    "pronunciacion": "SISORS",
+    "espanol": "TIJERAS"
+  },
+  {
+    "id": "eng-0317",
+    "ingles": "STAMP",
+    "pronunciacion": "STEMP",
+    "espanol": "SELLO"
+  },
+  {
+    "id": "eng-0318",
+    "ingles": "STAPLE",
+    "pronunciacion": "STEIPOL",
+    "espanol": "GRAPA"
+  },
+  {
+    "id": "eng-0319",
+    "ingles": "BLACKBOARD",
+    "pronunciacion": "BLACBORD",
+    "espanol": "PIZARRA"
+  },
+  {
+    "id": "eng-0320",
+    "ingles": "BILL",
+    "pronunciacion": "BILL",
+    "espanol": "FACTURA, CUENTA A PAGAR"
+  },
+  {
+    "id": "eng-0321",
+    "ingles": "SAFE",
+    "pronunciacion": "SEIF",
+    "espanol": "CAJA FUERTE"
+  },
+  {
+    "id": "eng-0322",
+    "ingles": "BOOKING",
+    "pronunciacion": "BUKING",
+    "espanol": "RESERVA"
+  },
+  {
+    "id": "eng-0323",
+    "ingles": "DEPARTURE",
+    "pronunciacion": "DIPARTUR",
+    "espanol": "SALIDA (VUELO, TREN…)"
+  },
+  {
+    "id": "eng-0324",
+    "ingles": "FRONT DESK",
+    "pronunciacion": "FRON DESK",
+    "espanol": "RECEPCIÓN"
+  },
+  {
+    "id": "eng-0325",
+    "ingles": "LAUNDRY",
+    "pronunciacion": "LONDRI",
+    "espanol": "LAVANDERÍA"
+  },
+  {
+    "id": "eng-0326",
+    "ingles": "LOBBY",
+    "pronunciacion": "LOBI",
+    "espanol": "VESTIBULO"
+  },
+  {
+    "id": "eng-0327",
+    "ingles": "LUGGAGE",
+    "pronunciacion": "LAGECH",
+    "espanol": "EQUIPAJE"
+  },
+  {
+    "id": "eng-0328",
+    "ingles": "RESTAURANT",
+    "pronunciacion": "RESTAURANT",
+    "espanol": "RESTAURANTE"
+  },
+  {
+    "id": "eng-0329",
+    "ingles": "STAFF",
+    "pronunciacion": "STAF",
+    "espanol": "PERSONAL"
+  },
+  {
+    "id": "eng-0330",
+    "ingles": "VOUCHER",
+    "pronunciacion": "VAUCHER",
+    "espanol": "CUPON"
+  },
+  {
+    "id": "eng-0331",
+    "ingles": "FLIGHT",
+    "pronunciacion": "FLAIT",
+    "espanol": "VUELO"
+  },
+  {
+    "id": "eng-0332",
+    "ingles": "CRUISE",
+    "pronunciacion": "CRUS",
+    "espanol": "CRUCERO"
+  },
+  {
+    "id": "eng-0333",
+    "ingles": "PARKING LOT",
+    "pronunciacion": "PARKIN LOT",
+    "espanol": "PARKING"
+  },
+  {
+    "id": "eng-0334",
+    "ingles": "HOTEL",
+    "pronunciacion": "HOUTEL",
+    "espanol": "HOTEL"
+  },
+  {
+    "id": "eng-0335",
+    "ingles": "HOSTEL",
+    "pronunciacion": "HOSTEL",
+    "espanol": "HOSTAL"
+  },
+  {
+    "id": "eng-0336",
+    "ingles": "INN",
+    "pronunciacion": "IN",
+    "espanol": "ALBERGUE"
+  },
+  {
+    "id": "eng-0337",
+    "ingles": "SUNBLOCK",
+    "pronunciacion": "SANBLOC",
+    "espanol": "CREMA SOLAR"
+  },
+  {
+    "id": "eng-0338",
+    "ingles": "BROCHURE",
+    "pronunciacion": "BROSHUR",
+    "espanol": "FOLLETO"
+  },
+  {
+    "id": "eng-0339",
+    "ingles": "FEE",
+    "pronunciacion": "FII",
+    "espanol": "TARIFA"
+  },
+  {
+    "id": "eng-0340",
+    "ingles": "ICE",
+    "pronunciacion": "AIS",
+    "espanol": "HIELO"
+  },
+  {
+    "id": "eng-0341",
+    "ingles": "BUG",
+    "pronunciacion": "BAC",
+    "espanol": "BICHO"
+  },
+  {
+    "id": "eng-0342",
+    "ingles": "MOSQUITO",
+    "pronunciacion": "MOSQUITOU",
+    "espanol": "MOSQUITO"
+  },
+  {
+    "id": "eng-0343",
+    "ingles": "AIRPORT",
+    "pronunciacion": "EIRPORT",
+    "espanol": "AEROPUERTO"
+  },
+  {
+    "id": "eng-0344",
+    "ingles": "BANK",
+    "pronunciacion": "BANK",
+    "espanol": "BANCO"
+  },
+  {
+    "id": "eng-0345",
+    "ingles": "BAR",
+    "pronunciacion": "BAR",
+    "espanol": "BAR"
+  },
+  {
+    "id": "eng-0346",
+    "ingles": "BARBERSHOP",
+    "pronunciacion": "BARBERSHOP",
+    "espanol": "BARBERÍA"
+  },
+  {
+    "id": "eng-0347",
+    "ingles": "BEAUTY PARLOR",
+    "pronunciacion": "BIUTI PARLOR",
+    "espanol": "SALON DE BELLEZA"
+  },
+  {
+    "id": "eng-0348",
+    "ingles": "PHARMACY",
+    "pronunciacion": "FARMASI",
+    "espanol": "FARMACIA"
+  },
+  {
+    "id": "eng-0349",
+    "ingles": "CHURCH",
+    "pronunciacion": "CHARCH",
+    "espanol": "IGLESIA"
+  },
+  {
+    "id": "eng-0350",
+    "ingles": "CINEMA",
+    "pronunciacion": "CINEMA",
+    "espanol": "CINE"
+  },
+  {
+    "id": "eng-0351",
+    "ingles": "COURT",
+    "pronunciacion": "CORT",
+    "espanol": "JUZGADOS"
+  },
+  {
+    "id": "eng-0352",
+    "ingles": "CLUB",
+    "pronunciacion": "CLOB",
+    "espanol": "DISCOTECA"
+  },
+  {
+    "id": "eng-0353",
+    "ingles": "GYM",
+    "pronunciacion": "YIM",
+    "espanol": "GIMNASIO"
+  },
+  {
+    "id": "eng-0354",
+    "ingles": "HOSPITAL",
+    "pronunciacion": "HOSPITAL",
+    "espanol": "HOSPITAL"
+  },
+  {
+    "id": "eng-0355",
+    "ingles": "JAIL",
+    "pronunciacion": "YEIL",
+    "espanol": "CARCEL"
+  },
+  {
+    "id": "eng-0356",
+    "ingles": "LIBRARY",
+    "pronunciacion": "LAIBRARI",
+    "espanol": "BIBLIOTECA"
+  },
+  {
+    "id": "eng-0357",
+    "ingles": "MARKET",
+    "pronunciacion": "MARKET",
+    "espanol": "MERCADO"
+  },
+  {
+    "id": "eng-0358",
+    "ingles": "PARK",
+    "pronunciacion": "PARK",
+    "espanol": "PARQUE"
+  },
+  {
+    "id": "eng-0359",
+    "ingles": "STATION",
+    "pronunciacion": "STEISHON",
+    "espanol": "ESTACIÓN"
+  },
+  {
+    "id": "eng-0360",
+    "ingles": "SQUARE",
+    "pronunciacion": "SKUER",
+    "espanol": "PLAZA"
+  },
+  {
+    "id": "eng-0361",
+    "ingles": "UNIVERSITY",
+    "pronunciacion": "YUNIVERSITI",
+    "espanol": "UNIVERSIDAD"
+  },
+  {
+    "id": "eng-0362",
+    "ingles": "ZOO",
+    "pronunciacion": "SUU",
+    "espanol": "ZOO"
+  },
+  {
+    "id": "eng-0363",
+    "ingles": "SKYSCRAPER",
+    "pronunciacion": "SKAISKRAPER",
+    "espanol": "RASCACIELOS"
+  },
+  {
+    "id": "eng-0364",
+    "ingles": "APARTMENT",
+    "pronunciacion": "APARTMEN",
+    "espanol": "ARTAMENTO"
+  },
+  {
+    "id": "eng-0365",
+    "ingles": "HOUSE",
+    "pronunciacion": "JAUS",
+    "espanol": "CASA"
+  },
+  {
+    "id": "eng-0366",
+    "ingles": "RAIN",
+    "pronunciacion": "REIN",
+    "espanol": "LLUVIA"
+  },
+  {
+    "id": "eng-0367",
+    "ingles": "SNOW",
+    "pronunciacion": "SNOU",
+    "espanol": "NIEVE"
+  },
+  {
+    "id": "eng-0368",
+    "ingles": "STORM",
+    "pronunciacion": "STORM",
+    "espanol": "TORMENTA"
+  },
+  {
+    "id": "eng-0369",
+    "ingles": "CLOUD",
+    "pronunciacion": "CLAUD",
+    "espanol": "NUBE"
+  },
+  {
+    "id": "eng-0370",
+    "ingles": "FOG",
+    "pronunciacion": "FOC",
+    "espanol": "NIEBLA"
+  },
+  {
+    "id": "eng-0371",
+    "ingles": "FLOWER",
+    "pronunciacion": "FLAUER",
+    "espanol": "FLOR"
+  },
+  {
+    "id": "eng-0372",
+    "ingles": "ALMOND",
+    "pronunciacion": "ALMON",
+    "espanol": "ALMENDRA"
+  },
+  {
+    "id": "eng-0373",
+    "ingles": "PLAYER",
+    "pronunciacion": "PLEYER",
+    "espanol": "JUGADOR"
+  },
+  {
+    "id": "eng-0374",
+    "ingles": "COACH",
+    "pronunciacion": "COUCH",
+    "espanol": "ENTRENADOR"
+  },
+  {
+    "id": "eng-0375",
+    "ingles": "BALL",
+    "pronunciacion": "BOL",
+    "espanol": "PELOTA"
+  },
+  {
+    "id": "eng-0376",
+    "ingles": "LEATHER",
+    "pronunciacion": "LEDER",
+    "espanol": "CUERO"
+  },
+  {
+    "id": "eng-0377",
+    "ingles": "IRON",
+    "pronunciacion": "AIRON",
+    "espanol": "HIERRO"
+  },
+  {
+    "id": "eng-0378",
+    "ingles": "STONE",
+    "pronunciacion": "STOUN",
+    "espanol": "PIEDRA"
+  },
+  {
+    "id": "eng-0379",
+    "ingles": "BRICK",
+    "pronunciacion": "BRIK",
+    "espanol": "LADRILLO"
+  },
+  {
+    "id": "eng-0380",
+    "ingles": "PLASTIC",
+    "pronunciacion": "PLASTIC",
+    "espanol": "PLASTICO"
+  },
+  {
+    "id": "eng-0381",
+    "ingles": "CAN",
+    "pronunciacion": "CAN",
+    "espanol": "LATA"
+  },
+  {
+    "id": "eng-0382",
+    "ingles": "SILVER",
+    "pronunciacion": "SILVER",
+    "espanol": "PLATA"
+  },
+  {
+    "id": "eng-0383",
+    "ingles": "GOLD",
+    "pronunciacion": "GOLD",
+    "espanol": "ORO"
+  }
+]

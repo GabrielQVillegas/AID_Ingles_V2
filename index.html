@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Repaso Ingles AID V2</title>
+<style>
+*{box-sizing:border-box}
+:root{
+  --bg:#f3f4f6;
+  --card:#ffffff;
+  --text:#111827;
+  --muted:#6b7280;
+  --shadow:0 10px 25px rgba(0,0,0,.12);
+  --line:#e5e7eb;
+  --input:#ffffff;
+  --menu1:#7c3aed;
+  --menu2:#0f766e;
+  --menu3:#2563eb;
+  --menu4:#1d4ed8;
+  --aid:#7c3aed;
+  --apr:#2563eb;
+  --audio:#e11d48;
+  --eye:#374151;
+  --ok:#10b981;
+  --warn:#f59e0b;
+  --note:#0f766e;
+  --danger:#dc2626;
+  --success:#16a34a;
+  --badgeAidBg:#ede9fe;
+  --badgeAidText:#5b21b6;
+}
+body.dark{
+  --bg:#0f172a;
+  --card:#111827;
+  --text:#f9fafb;
+  --muted:#9ca3af;
+  --shadow:0 10px 25px rgba(0,0,0,.35);
+  --line:#374151;
+  --input:#1f2937;
+  --eye:#475569;
+  --badgeAidBg:#312e81;
+  --badgeAidText:#ddd6fe;
+}
+body{margin:0;padding:16px;background:var(--bg);color:var(--text);font-family:Arial,sans-serif;transition:background .25s ease,color .25s ease}
+.container{max-width:430px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+.box{background:var(--card);border-radius:20px;box-shadow:var(--shadow);padding:16px;transition:background .25s ease, box-shadow .25s ease}
+.menu-box{padding-top:13px;padding-bottom:18px}
+.menu-header{position:relative;min-height:32px;display:flex;align-items:center;justify-content:center;margin-bottom:12px}
+.title{text-align:center;font-size:22px;margin:0;line-height:1.2}
+.theme-toggle{position:absolute;right:0;top:50%;transform:translateY(-50%);width:32px;height:32px;border-radius:999px;padding:0;font-size:18px;background:#111827;color:#fff;box-shadow:0 6px 14px rgba(0,0,0,.18)}
+.search-wrap{position:relative;margin-bottom:12px}
+.search-input{width:100%;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:var(--input);color:var(--text);font-size:15px;outline:none}
+.search-input::placeholder{color:var(--muted)}
+.suggestions{position:absolute;top:calc(100% + 6px);left:0;right:0;background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);overflow:hidden;z-index:15}
+.suggestion-item{width:100%;text-align:left;background:transparent;color:var(--text);border:none;border-radius:0;box-shadow:none;padding:12px 14px;margin:0;border-bottom:1px solid var(--line)}
+.suggestion-item:last-child{border-bottom:none}
+.suggestion-sub{display:block;color:var(--muted);font-size:12px;margin-top:3px}
+.menu-grid,.tools-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+button{border:none;padding:12px 14px;margin:0;border-radius:12px;font-size:15px;cursor:pointer;color:white;transition:transform .22s ease, box-shadow .22s ease, opacity .22s ease, filter .22s ease, background .22s ease;box-shadow:0 4px 10px rgba(0,0,0,.12)}
+button:active{transform:scale(.97)}
+.menuBtn1{background:var(--menu1)}
+.menuBtn2{background:var(--menu2)}
+.menuBtn3{background:var(--menu3)}
+.menuBtn4{background:var(--menu4)}
+.menu-button.inactive{opacity:.62;box-shadow:0 3px 8px rgba(0,0,0,.08);transform:scale(1)}
+.menu-button.active{opacity:1;transform:scale(1.06);box-shadow:0 12px 22px rgba(0,0,0,.20);filter:saturate(1.05);position:relative;z-index:1}
+.counter{text-align:center;color:var(--muted);font-size:14px;margin-bottom:8px}
+.word-wrap{position:relative;padding-top:4px}
+.favorite-star{position:absolute;right:2px;top:0;width:34px;height:34px;padding:0;border-radius:999px;background:transparent;color:#f59e0b;box-shadow:none;font-size:24px;line-height:1}
+.favorite-star.off{color:#9ca3af}
+.word{font-size:34px;margin:8px 0 10px;text-align:center;word-break:break-word;min-height:40px}
+.pron{font-size:20px;color:var(--muted);text-align:center;margin-bottom:8px;min-height:24px}
+.esp{font-size:24px;text-align:center;margin-bottom:16px;min-height:32px}
+.meta-line{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-bottom:12px}
+.badge{padding:7px 10px;border-radius:999px;font-size:13px;font-weight:bold}
+.badge.aidStyle{background:var(--badgeAidBg);color:var(--badgeAidText)}
+.badge.neutral{background:#e5e7eb;color:#374151}
+.badge.noteYes{background:#dcfce7;color:#166534}
+.badge.easy{background:#dcfce7;color:#166534}
+.badge.hard{background:#fee2e2;color:#991b1b}
+.badge.special{background:#ffedd5;color:#9a3412}
+.button-row{display:grid;gap:10px;margin-bottom:10px}
+.row-2{grid-template-columns:1fr 1fr}
+.row-3{grid-template-columns:1fr 1fr 1fr}
+.audio{background:var(--audio)}
+.eye{background:var(--eye)}
+.note{background:var(--note)}
+.aidBtn{background:var(--aid)}
+.wide{grid-column:1 / -1;max-width:90%;width:90%;justify-self:center;padding-left:34px;padding-right:34px}
+.learn{background:var(--ok)}
+.review{background:var(--warn)}
+.easyBtn{background:var(--ok)}
+.hardBtn{background:var(--warn)}
+.row-2.sinmarcar-top{display:flex;justify-content:center;gap:10px}
+.row-3.aid-actions{display:flex;justify-content:center;gap:10px;width:95%;margin-left:auto;margin-right:auto;margin-top:14px;}
+.row-2.aid-top{display:flex;justify-content:center;gap:10px;width:95%;margin-left:auto;margin-right:auto}
+.compact-audio{padding-left:10px;padding-right:10px}
+.top-compact{height:38px;padding:10px 8px;font-size:13px;display:flex;align-items:center;justify-content:center}
+.stat-wide{grid-column:1 / -1}
+
+.nav-row{text-align:center}
+.nav{background:#111827;min-width:72px}
+.stats-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.stat-box{background:#f9fafb;border:1px solid var(--line);border-radius:14px;padding:12px;text-align:center}
+body.dark .stat-box{background:#1f2937}
+.stat-label{font-size:14px;color:var(--muted)}
+.stat-value{font-size:24px;font-weight:bold;margin-top:6px}
+.resetBtn{background:var(--menu1);width:100%;margin-top:12px}
+.exportBtn{background:#92400e}
+.importBtn{background:#0f766e}
+.fileBtn{background:#92400e;width:100%}
+.hidden{display:none !important}
+.notice{background:#fff7ed;border:1px solid #fdba74;color:#9a3412;border-radius:14px;padding:12px;font-size:14px;line-height:1.35;margin-bottom:12px}
+.muted-center{text-align:center;color:var(--muted);font-size:14px;margin-bottom:10px}
+.exam-options{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.exam-option{background:#1d4ed8}
+.exam-progress{text-align:center;font-weight:bold;margin-bottom:10px}
+.modal-backdrop{position:fixed;inset:0;background:rgba(15,23,42,.55);display:flex;align-items:center;justify-content:center;padding:16px;z-index:1000}
+.modal{width:min(100%,420px);background:var(--card);color:var(--text);border-radius:18px;box-shadow:var(--shadow);padding:16px}
+.modal-title{text-align:center;font-size:20px;font-weight:bold;margin-bottom:12px}
+.modal textarea{width:100%;min-height:120px;border:1px solid var(--line);background:var(--input);color:var(--text);border-radius:12px;padding:12px;font:inherit;resize:vertical;outline:none}
+.modal-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
+.secondary{background:#6b7280}
+.result-list{max-height:320px;overflow:auto;border:1px solid var(--line);border-radius:12px;padding:10px;background:rgba(255,255,255,.03)}
+.result-item{padding:8px 0;border-bottom:1px solid var(--line)}
+.result-item:last-child{border-bottom:none}
+.result-wrong{color:var(--danger);font-weight:bold}
+.result-correct{color:var(--success);font-weight:bold;margin-top:4px}
+.small-note{text-align:center;color:var(--muted);font-size:13px;margin-top:8px}
+@keyframes fadeSlide{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.card-anim{animation:fadeSlide .22s ease}
+
+/* v2 visual ajustes */
+.menu{padding-bottom:18px !important;}
+.mode-label, .day-label, .aid-meta .mode, .aid-meta .day, .meta-mode, .meta-day, .badge-mode, .badge-day{
+  background:#ecf0f1 !important;
+  color:#555 !important;
+}
+.aid-top-actions button, .aid-bottom-actions button, .rowTop .btnTop, .rowBottom .btnBottom{
+  height:38px !important;
+}
+
+</style>
+<meta name="theme-color" content="#2563eb">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192_V1.png">
+</head>
+<body>
+<div class="container">
+
+  <div id="cargaBox" class="box hidden">
+    <div class="title" style="margin-bottom:12px;">Carga del archivo</div>
+    <div class="notice">
+      No se pudo leer el archivo JSON automaticamente. Si abriste este HTML con doble clic, el navegador puede bloquear la lectura del JSON.
+      Puedes seleccionar el archivo manualmente aqui.
+    </div>
+    <input id="jsonFileInput" type="file" accept=".json" class="hidden">
+    <button class="fileBtn" onclick="document.getElementById('jsonFileInput').click()">Seleccionar JSON</button>
+  </div>
+
+  <div class="box menu-box">
+    <div class="menu-header">
+      <h1 class="title">Menu</h1>
+      <button id="themeToggle" class="theme-toggle" onclick="toggleTheme()" aria-label="Cambiar tema">🌙</button>
+    </div>
+
+    <div class="search-wrap">
+      <input id="searchInput" class="search-input" type="text" placeholder="Buscar en espanol" autocomplete="off">
+      <div id="suggestions" class="suggestions hidden"></div>
+    </div>
+
+    <div class="menu-grid">
+      <button id="btnSinMarcar" class="menuBtn2 menu-button" onclick="salirBusqueda(); cargarModo('sinMarcar')">Sin marcar</button>
+      <button id="btnAid" class="menuBtn3 menu-button" onclick="salirBusqueda(); cargarModo('aid')">AID</button>
+      <button id="btnAprendidas" class="menuBtn4 menu-button" onclick="salirBusqueda(); cargarModo('aprendidas')">Aprendidas</button>
+      <button id="btnExamenOral" class="menuBtn1 menu-button" onclick="salirBusqueda(); cargarModo('examenOral')">Examen oral</button>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="mode" id="modoActual" style="text-align:center;color:var(--muted);margin-bottom:6px;">Modo: Sin marcar</div>
+    <div class="counter" id="contadorActual">0/0</div>
+
+    <div id="tarjetaContenido" class="card-anim">
+      <div class="word-wrap">
+        <button id="favoriteBtn" class="favorite-star off" onclick="toggleFavoritoActual()">☆</button>
+        <div class="word" id="ing">Cargando...</div>
+      </div>
+      <div class="pron" id="pro">-</div>
+      <div class="esp" id="esp">-</div>
+      <div class="meta-line" id="metaLine"></div>
+      <div class="button-row row-2" id="rowTop"></div>
+      <div class="button-row row-3" id="rowBottom"></div>
+    </div>
+
+    <div id="panelExamen" class="hidden">
+      <div class="muted-center">Escucha el audio y elige la opcion correcta en espanol.</div>
+      <div class="exam-progress" id="examProgress">0/0</div>
+      <div style="text-align:center;margin-bottom:10px;">
+        <button class="audio" onclick="audioExamenActual()">🔊 Reproducir audio</button>
+      </div>
+      <div id="examOptions" class="exam-options"></div>
+      <div class="small-note" id="examSourceInfo"></div>
+    </div>
+
+    <div class="nav-row" id="navRow">
+      <button class="nav" onclick="prev()">⬅</button>
+      <button class="nav" onclick="next()">➡</button>
+    </div>
+  </div>
+
+  <div class="box">
+    <h1 class="title" style="margin-bottom:12px;">Estadisticas</h1>
+    <div class="stats-grid">
+      <div class="stat-box"><div class="stat-label">Total de palabras</div><div class="stat-value" id="statTotal">0</div></div>
+      <div class="stat-box"><div class="stat-label">AID</div><div class="stat-value" id="statAid">0</div></div>
+      <div class="stat-box"><div class="stat-label">Aprendidas</div><div class="stat-value" id="statAprendidas">0</div></div>
+      <div class="stat-box"><div class="stat-label">Favoritos</div><div class="stat-value" id="statFavoritos">0</div></div>
+      <div class="stat-box stat-wide"><div class="stat-label">Sin marcar</div><div class="stat-value" id="statSinMarcar">0</div></div>
+    </div>
+    <div class="tools-grid" style="margin-top:12px;">
+      <button class="exportBtn" onclick="exportarHistorial()">Exportar</button>
+      <button class="importBtn" onclick="document.getElementById('importProgressInput').click()">Importar</button>
+    </div>
+    <input id="importProgressInput" type="file" accept=".json" class="hidden">
+    <button class="resetBtn" onclick="reiniciar()">Reiniciar</button>
+  </div>
+</div>
+
+<div id="noteModalBackdrop" class="modal-backdrop hidden">
+  <div class="modal">
+    <div class="modal-title">Nota</div>
+    <textarea id="noteTextarea" placeholder="Escribe tu nota o mnemotecnia..."></textarea>
+    <div class="modal-actions">
+      <button class="secondary" onclick="cerrarModalNota()">Cancelar</button>
+      <button class="note" onclick="guardarModalNota()">Guardar</button>
+    </div>
+  </div>
+</div>
+
+<div id="resultModalBackdrop" class="modal-backdrop hidden">
+  <div class="modal">
+    <div class="modal-title" id="resultTitle">Resultado</div>
+    <div class="muted-center" id="resultScore">0/0</div>
+    <div id="resultBody"></div>
+    <div class="modal-actions" style="grid-template-columns:1fr;">
+      <button class="menuBtn2" onclick="cerrarModalResultado()">Cerrar</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const JSON_URL = "palabras_vocabulario_definitivo.json";
+const STORAGE_KEY = "aidAppProgress_v3";
+const LEGACY_KEYS = ["aidAppProgress_v2", "aidAppProgress_v1"];
+const THEME_KEY = "aidAppTheme_v1";
+const EXPORT_VERSION = 3;
+const AID_DAYS_REQUIRED = 3;
+const AID_LIMITS_BY_DAY = [3,3,2];
+const AID_INACTIVITY_DAYS = 3;
+const APRENDIDAS_SPECIAL_EVERY_DAYS = 7;
+const EXAM_MAX_QUESTIONS = 25;
+
+const MODE_LABELS = {
+  sinMarcar: "Sin marcar",
+  aid: "AID",
+  aprendidas: "Aprendidas",
+  examenOral: "Examen oral",
+  especial: "Especial",
+  busqueda: "Busqueda"
+};
+
+let palabrasBase = [];
+let progreso = {};
+let data = [];
+let listaActual = [];
+let i = 0;
+let modo = "sinMarcar";
+let modoBusqueda = false;
+let palabraBuscadaId = null;
+let examState = null;
+let noteEditingId = null;
+let aprendidasShuffleSeed = 0;
+
+const jsonFileInput = document.getElementById("jsonFileInput");
+const importProgressInput = document.getElementById("importProgressInput");
+const searchInput = document.getElementById("searchInput");
+const suggestions = document.getElementById("suggestions");
+const modoActual = document.getElementById("modoActual");
+const contadorActual = document.getElementById("contadorActual");
+const tarjetaContenido = document.getElementById("tarjetaContenido");
+const ing = document.getElementById("ing");
+const pro = document.getElementById("pro");
+const esp = document.getElementById("esp");
+const metaLine = document.getElementById("metaLine");
+const rowTop = document.getElementById("rowTop");
+const rowBottom = document.getElementById("rowBottom");
+const favoriteBtn = document.getElementById("favoriteBtn");
+const navRow = document.getElementById("navRow");
+const panelExamen = document.getElementById("panelExamen");
+const examProgress = document.getElementById("examProgress");
+const examOptions = document.getElementById("examOptions");
+const examSourceInfo = document.getElementById("examSourceInfo");
+const noteModalBackdrop = document.getElementById("noteModalBackdrop");
+const noteTextarea = document.getElementById("noteTextarea");
+const resultModalBackdrop = document.getElementById("resultModalBackdrop");
+const resultTitle = document.getElementById("resultTitle");
+const resultScore = document.getElementById("resultScore");
+const resultBody = document.getElementById("resultBody");
+
+jsonFileInput.addEventListener("change", async (e) => {
+  const file = e.target.files[0];
+  if (!file) return;
+  try {
+    const text = await file.text();
+    palabrasBase = JSON.parse(text);
+    document.getElementById("cargaBox").classList.add("hidden");
+    iniciarConDatos();
+  } catch (err) {
+    alert("No se pudo leer el archivo JSON seleccionado.");
+    console.error(err);
+  }
+});
+
+importProgressInput.addEventListener("change", async (e) => {
+  const file = e.target.files[0];
+  if (!file) return;
+  const confirmar = confirm("Esto reemplazara completamente tu progreso actual. Deseas continuar?");
+  if (!confirmar) {
+    e.target.value = "";
+    return;
+  }
+  try {
+    const text = await file.text();
+    const contenido = JSON.parse(text);
+    if (!contenido || typeof contenido !== "object" || !contenido.progreso || typeof contenido.progreso !== "object") {
+      throw new Error("Formato invalido");
+    }
+    progreso = contenido.progreso;
+    examState = contenido.examState || null;
+    fusionarDatos();
+    persistirTodo();
+    actualizarStats();
+    salirBusqueda();
+    cargarModo("sinMarcar");
+    alert("Historial importado correctamente.");
+  } catch (err) {
+    alert("No se pudo importar el historial. Verifica que sea un archivo valido.");
+    console.error(err);
+  } finally {
+    e.target.value = "";
+  }
+});
+
+searchInput.addEventListener("input", manejarBusquedaInput);
+document.addEventListener("click", (e) => {
+  const wrap = document.querySelector(".search-wrap");
+  if (wrap && !wrap.contains(e.target)) ocultarSugerencias();
+});
+
+aplicarTemaInicial();
+cargarJsonInicial();
+
+async function cargarJsonInicial() {
+  try {
+    const response = await fetch(JSON_URL);
+    if (!response.ok) throw new Error("No se pudo cargar el JSON");
+    palabrasBase = await response.json();
+    iniciarConDatos();
+  } catch (err) {
+    console.warn(err);
+    document.getElementById("cargaBox").classList.remove("hidden");
+    ing.textContent = "Selecciona el JSON para comenzar";
+    pro.textContent = "-";
+    esp.textContent = "-";
+  }
+}
+
+function iniciarConDatos() {
+  cargarProgreso();
+  fusionarDatos();
+  actualizarStats();
+  cargarModo("sinMarcar");
+}
+
+function cargarProgreso() {
+  const actual = localStorage.getItem(STORAGE_KEY);
+  if (actual) {
+    try {
+      const parsed = JSON.parse(actual);
+      progreso = parsed.progreso || {};
+      examState = parsed.examState || null;
+      return;
+    } catch {}
+  }
+  for (const legacyKey of LEGACY_KEYS) {
+    const guardado = localStorage.getItem(legacyKey);
+    if (!guardado) continue;
+    try {
+      const parsed = JSON.parse(guardado);
+      progreso = parsed.progreso || parsed || {};
+      examState = parsed.examState || null;
+      return;
+    } catch {}
+  }
+  progreso = {};
+  examState = null;
+}
+
+function persistirTodo() {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify({ progreso, examState }));
+}
+
+function createEmptyProgressEntry() {
+  return {
+    mode: "sinMarcar",
+    favorite: false,
+    note: "",
+    aidAssignedDate: null,
+    aidLastTouchedDate: null,
+    aidValidDates: [],
+    aidDayCounts: {},
+    aidTouchedEver: false,
+    aidCurrentReveal: false,
+    aprendidasEnteredDate: null,
+    aprendidasStatus: "", // "" | "facil" | "dificil"
+    aprendidasReveal: false,
+    aprendidasLastClassifiedDate: null,
+    aprendidasSpecialAt: null,
+    aprendidasSpecialPending: false,
+    aprendidasWasSeen: false,
+    updatedAt: null
+  };
+}
+
+function normalizeLegacyState(raw) {
+  const base = createEmptyProgressEntry();
+  if (!raw || typeof raw !== "object") return base;
+  if (raw.mode && (raw.mode === "sinMarcar" || raw.mode === "aid" || raw.mode === "aprendidas")) {
+    return { ...base, ...raw };
+  }
+  const migrated = { ...base };
+  migrated.favorite = !!raw.favorite;
+  migrated.note = raw.note || "";
+  if (raw.mode === "aprendido" || raw.aprendida || raw.mode === "totalAprendidas") {
+    migrated.mode = "aprendidas";
+    migrated.aprendidasEnteredDate = raw.aprendidoStartedDate || todayLocal();
+    migrated.aprendidasStatus = raw.mode === "totalAprendidas" ? "facil" : "";
+    migrated.aprendidasWasSeen = true;
+    migrated.aprendidasSpecialAt = migrated.aprendidasEnteredDate;
+  } else if (raw.aid || raw.mode === "aid") {
+    migrated.mode = "aid";
+    migrated.aidAssignedDate = raw.aidAssignedDate || todayLocal();
+    migrated.aidLastTouchedDate = raw.aidLastTouchedDate || null;
+    migrated.aidValidDates = uniqueDateArray(raw.aidValidDates);
+    migrated.aidDayCounts = sanitizeHistoryMap(raw.aidAprendidoHistory || raw.aidDayCounts);
+    migrated.aidTouchedEver = !!raw.aidTouchedEver || Object.keys(migrated.aidDayCounts).length > 0;
+  }
+  return migrated;
+}
+
+function fusionarDatos() {
+  const today = todayLocal();
+  data = palabrasBase.map((p, idx) => {
+    const stored = normalizeLegacyState(progreso[p.id]);
+    stored.aidValidDates = uniqueDateArray(stored.aidValidDates);
+    stored.aidDayCounts = sanitizeHistoryMap(stored.aidDayCounts);
+    if (!stored.updatedAt) stored.updatedAt = today;
+    applyAutomaticTransitions(stored, today);
+    progreso[p.id] = stored;
+    return { ...p, __index: idx, progress: stored };
+  });
+  persistirTodo();
+}
+
+function sanitizeHistoryMap(map) {
+  if (!map || typeof map !== "object") return {};
+  const clean = {};
+  Object.entries(map).forEach(([key, value]) => {
+    const num = Number(value) || 0;
+    if (num >= 0) clean[key] = num;
+  });
+  return clean;
+}
+
+function uniqueDateArray(arr) {
+  if (!Array.isArray(arr)) return [];
+  return [...new Set(arr.filter(Boolean))].sort();
+}
+
+function applyAutomaticTransitions(entry, today) {
+  if (entry.mode === "aid") {
+    const ref = entry.aidLastTouchedDate || entry.aidAssignedDate;
+    if (ref && diffDays(ref, today) >= AID_INACTIVITY_DAYS) {
+      moveToSinMarcar(entry);
+      return;
+    }
+  }
+  if (entry.mode === "aprendidas") {
+    ensureAprendidasSpecial(entry, today);
+  }
+}
+
+function ensureAprendidasSpecial(entry, today = todayLocal()) {
+  if (entry.mode !== "aprendidas") return;
+  if (!entry.aprendidasEnteredDate) entry.aprendidasEnteredDate = today;
+  const anchor = entry.aprendidasSpecialAt || entry.aprendidasEnteredDate;
+  if (!anchor) return;
+  if (diffDays(anchor, today) >= APRENDIDAS_SPECIAL_EVERY_DAYS) {
+    entry.aprendidasSpecialPending = true;
+    entry.aprendidasStatus = "";
+    entry.aprendidasSpecialAt = today;
+  }
+}
+
+function guardarProgreso() {
+  persistirTodo();
+  actualizarStats();
+}
+
+function actualizarStats() {
+  const total = data.length;
+  const aidCount = data.filter(p => p.progress.mode === "aid").length;
+  const aprendidasCount = data.filter(p => p.progress.mode === "aprendidas").length;
+  const favoritosCount = data.filter(p => p.progress.favorite).length;
+  document.getElementById("statTotal").textContent = total;
+  document.getElementById("statAid").textContent = aidCount;
+  document.getElementById("statAprendidas").textContent = aprendidasCount;
+  document.getElementById("statFavoritos").textContent = favoritosCount;
+  document.getElementById("statSinMarcar").textContent = Math.max(0, total - (aidCount + aprendidasCount));
+}
+
+function todayLocal() {
+  const d = new Date();
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${y}-${m}-${day}`;
+}
+
+function diffDays(from, to) {
+  if (!from || !to) return 0;
+  const a = new Date(`${from}T00:00:00`);
+  const b = new Date(`${to}T00:00:00`);
+  return Math.floor((b - a) / 86400000);
+}
+
+function normalizeText(text) {
+  return (text || "").toString().normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+}
+
+function shuffle(arr) {
+  const copia = [...arr];
+  for (let j = copia.length - 1; j > 0; j--) {
+    const k = Math.floor(Math.random() * (j + 1));
+    [copia[j], copia[k]] = [copia[k], copia[j]];
+  }
+  return copia;
+}
+
+function getAidDayIndex(word) {
+  return Math.min(word.progress.aidValidDates.length, AID_DAYS_REQUIRED - 1);
+}
+
+function getAidTodayCount(word, day = todayLocal()) {
+  return word.progress.aidDayCounts[day] || 0;
+}
+
+function getAidRequiredToday(word) {
+  return AID_LIMITS_BY_DAY[getAidDayIndex(word)];
+}
+
+function isAidHiddenForToday(word, day = todayLocal()) {
+  return getAidTodayCount(word, day) >= getAidRequiredToday(word);
+}
+
+function getAprendidasPhase(word) {
+  const p = word.progress;
+  if (p.aprendidasSpecialPending) return "special";
+  if (!p.aprendidasWasSeen) return "new";
+  if (p.aprendidasStatus === "dificil") return "hard";
+  return "easy";
+}
+
+function getListaBaseSegunModo() {
+  const today = todayLocal();
+  data.forEach((word) => applyAutomaticTransitions(word.progress, today));
+
+  if (modo === "sinMarcar") {
+    const favoritos = data.filter(p => p.progress.mode === "sinMarcar" && p.progress.favorite).sort((a,b) => a.__index - b.__index);
+    const normales = data.filter(p => p.progress.mode === "sinMarcar" && !p.progress.favorite).sort((a,b) => a.__index - b.__index);
+    return [...favoritos, ...normales];
+  }
+
+  if (modo === "aid") {
+    const base = data.filter(p => p.progress.mode === "aid" && !isAidHiddenForToday(p, today));
+    const groupNew = base.filter(p => !p.progress.aidTouchedEver).sort((a,b) => a.__index - b.__index);
+    const group0 = base.filter(p => p.progress.aidTouchedEver && getAidTodayCount(p, today) === 0).sort((a,b) => a.__index - b.__index);
+    const group1 = base.filter(p => getAidTodayCount(p, today) === 1).sort((a,b) => a.__index - b.__index);
+    const group2 = base.filter(p => getAidTodayCount(p, today) === 2).sort((a,b) => a.__index - b.__index);
+    return [...groupNew, ...group0, ...group1, ...group2];
+  }
+
+  if (modo === "aprendidas") {
+    const base = data.filter(p => p.progress.mode === "aprendidas");
+    const groupFront = shuffle(base.filter(p => {
+      const phase = getAprendidasPhase(p);
+      return phase === "new" || phase === "special";
+    }));
+    const groupHard = shuffle(base.filter(p => getAprendidasPhase(p) === "hard"));
+    const groupEasy = shuffle(base.filter(p => getAprendidasPhase(p) === "easy"));
+    return [...groupFront, ...groupHard, ...groupEasy];
+  }
+
+  return [];
+}
+
+function actualizarBotonesMenu() {
+  const map = {
+    sinMarcar: "btnSinMarcar",
+    aid: "btnAid",
+    aprendidas: "btnAprendidas",
+    examenOral: "btnExamenOral"
+  };
+  Object.values(map).forEach((id) => {
+    const btn = document.getElementById(id);
+    if (!btn) return;
+    btn.classList.remove("active");
+    btn.classList.add("inactive");
+  });
+  if (!modoBusqueda) {
+    const activo = document.getElementById(map[modo]);
+    if (activo) {
+      activo.classList.remove("inactive");
+      activo.classList.add("active");
+    }
+  }
+}
+
+function cargarModo(nuevoModo) {
+  if (!data.length) return;
+  modo = nuevoModo;
+  i = 0;
+  modoBusqueda = false;
+  palabraBuscadaId = null;
+  ocultarSugerencias();
+  if (modo === "aprendidas") aprendidasShuffleSeed = Date.now();
+  renderModo();
+}
+
+function renderModo() {
+  actualizarBotonesMenu();
+  modoActual.textContent = `Modo: ${MODE_LABELS[modo] || modo}`;
+  if (modo === "examenOral") {
+    tarjetaContenido.classList.add("hidden");
+    navRow.classList.add("hidden");
+    panelExamen.classList.remove("hidden");
+    renderExamen();
+    return;
+  }
+  panelExamen.classList.add("hidden");
+  tarjetaContenido.classList.remove("hidden");
+  navRow.classList.remove("hidden");
+  listaActual = getListaBaseSegunModo();
+  mostrar();
+}
+
+function refrescarListaActual() {
+  const base = getListaBaseSegunModo();
+  const map = new Map(base.map(item => [item.id, item]));
+  const preserved = listaActual.map(item => map.get(item.id)).filter(Boolean);
+  const missing = base.filter(item => !preserved.some(existing => existing.id === item.id));
+  listaActual = [...preserved, ...missing];
+}
+
+function animarTarjeta() {
+  tarjetaContenido.classList.remove("card-anim");
+  void tarjetaContenido.offsetWidth;
+  tarjetaContenido.classList.add("card-anim");
+}
+
+function renderCard(word, contadorTexto) {
+  if (!word) {
+    contadorActual.textContent = contadorTexto || "0/0";
+    favoriteBtn.classList.add("hidden");
+    ing.textContent = "Sin palabras";
+    pro.textContent = "-";
+    esp.textContent = "-";
+    metaLine.innerHTML = "";
+    rowTop.innerHTML = "";
+    rowBottom.innerHTML = "";
+    animarTarjeta();
+    return;
+  }
+
+  const p = word.progress;
+  const currentMode = p.mode;
+  const showReveal = currentMode === "aid" ? p.aidCurrentReveal : p.aprendidasReveal;
+  const hideRevealParts = currentMode === "aid" || currentMode === "aprendidas";
+  const showWord = !(hideRevealParts && !showReveal);
+
+  favoriteBtn.classList.remove("hidden");
+  favoriteBtn.textContent = p.favorite ? "★" : "☆";
+  favoriteBtn.classList.toggle("off", !p.favorite);
+
+  ing.textContent = showWord ? word.ingles : "••••••";
+  pro.textContent = showWord ? word.pronunciacion : "••••••";
+  esp.textContent = word.espanol;
+  contadorActual.textContent = contadorTexto;
+
+  if (currentMode === "sinMarcar") {
+    metaLine.innerHTML = `
+      <span class="badge neutral">Modo: Sin marcar</span>
+      <span class="badge ${p.note && p.note.trim() ? "noteYes" : "neutral"}">Nota: ${p.note && p.note.trim() ? "Si" : "No"}</span>`;
+    rowTop.className = "button-row row-2 sinmarcar-top";
+    rowTop.innerHTML = `<button class="audio compact-audio" style="width:44%" onclick="audio()">🔊 Audio</button><button class="note" style="width:44%" onclick="abrirModalNota()">Notas</button>`;
+    rowBottom.className = "button-row row-3";
+    rowBottom.innerHTML = `<button class="aidBtn wide" onclick="mandarAAid()">AID</button>`;
+  } else if (currentMode === "aid") {
+    const dia = Math.min(p.aidValidDates.length, AID_DAYS_REQUIRED);
+    metaLine.innerHTML = `
+      <span class="badge neutral">Modo: AID</span>
+      <span class="badge ${p.note && p.note.trim() ? "noteYes" : "neutral"}">Nota: ${p.note && p.note.trim() ? "Si" : "No"}</span>
+      <span class="badge neutral">Dia: ${dia}/${AID_DAYS_REQUIRED}</span>`;
+    rowTop.className = "button-row row-2 aid-top";
+    rowTop.innerHTML = `<button class="audio top-compact" style="width:31%" onclick="audio()">🔊 Audio</button><button class="eye top-compact" style="width:31%" onclick="toggleRevealActual()">👁 ${showReveal ? "Oculta" : "Mostrar"}</button><button class="note top-compact" style="width:31%" onclick="abrirModalNota()">Notas</button>`;
+    rowBottom.className = "button-row row-3 aid-actions";
+    rowBottom.innerHTML = `<button class="learn" style="width:47%" onclick="sumarAprendidoAid()">Aprendido</button><button class="review" style="width:47%" onclick="restarConRepasarAid()">Repasar</button>`;
+  } else if (currentMode === "aprendidas") {
+    const phase = getAprendidasPhase(word);
+    const modoTexto = phase === "special" ? "Especial" : "Aprendidas";
+    const estadoTexto = phase === "new" || phase === "special" ? "-" : (p.aprendidasStatus === "dificil" ? "Dificil" : "Facil");
+    const estadoClass = phase === "hard" ? "hard" : phase === "easy" ? "easy" : phase === "special" ? "special" : "neutral";
+    metaLine.innerHTML = `
+      <span class="badge neutral">Modo: ${modoTexto}</span>
+      ${p.note && p.note.trim() ? `<span class="badge noteYes">Nota: Si</span>` : `<span class="badge neutral">Nota: No</span>`}
+      <span class="badge ${estadoClass}">Estado: ${estadoTexto}</span>`;
+    rowTop.className = "button-row row-2 aid-top";
+    rowTop.innerHTML = `<button class="audio top-compact" style="width:31%" onclick="audio()">🔊 Audio</button><button class="eye top-compact" style="width:31%" onclick="toggleRevealActual()">👁 ${showReveal ? "Oculta" : "Mostrar"}</button><button class="note top-compact" style="width:31%" onclick="abrirModalNota()">Notas</button>`;
+    rowBottom.className = "button-row row-3 aid-actions";
+    rowBottom.innerHTML = `<button class="easyBtn" style="width:47%" onclick="clasificarAprendida('facil')">Facil</button><button class="hardBtn" style="width:47%" onclick="clasificarAprendida('dificil')">Dificil</button>`;
+  }
+
+  animarTarjeta();
+}
+
+function mostrar() {
+  if (modoBusqueda) {
+    mostrarPalabraBuscada();
+    return;
+  }
+  refrescarListaActual();
+  if (!listaActual.length) {
+    renderCard(null, "0/0");
+    return;
+  }
+  if (i >= listaActual.length) i = 0;
+  if (i < 0) i = listaActual.length - 1;
+  renderCard(listaActual[i], `${i + 1}/${listaActual.length}`);
+}
+
+function mostrarPalabraBuscada() {
+  const word = data.find(x => x.id === palabraBuscadaId);
+  if (!word) {
+    renderCard(null, "0/0");
+    return;
+  }
+  panelExamen.classList.add("hidden");
+  tarjetaContenido.classList.remove("hidden");
+  navRow.classList.remove("hidden");
+  modoActual.textContent = "Modo: Busqueda";
+  renderCard(word, "1/1");
+  actualizarBotonesMenu();
+}
+
+function next() {
+  if (modoBusqueda || modo === "examenOral") return;
+  if (!listaActual.length) return;
+  i = (i + 1) % listaActual.length;
+  mostrar();
+}
+
+function prev() {
+  if (modoBusqueda || modo === "examenOral") return;
+  if (!listaActual.length) return;
+  i = (i - 1 + listaActual.length) % listaActual.length;
+  mostrar();
+}
+
+function obtenerActual() {
+  if (modoBusqueda) return data.find(x => x.id === palabraBuscadaId) || null;
+  if (modo === "examenOral") return null;
+  return listaActual.length ? listaActual[i] : null;
+}
+
+function audio() {
+  const palabra = obtenerActual();
+  if (!palabra) return;
+  const u = new SpeechSynthesisUtterance(palabra.ingles);
+  u.lang = "en-US";
+  u.rate = 0.85;
+  u.pitch = 1;
+  speechSynthesis.cancel();
+  speechSynthesis.speak(u);
+}
+
+function saveWordProgress(word) {
+  progreso[word.id] = { ...word.progress };
+  guardarProgreso();
+}
+
+function moveToSinMarcar(entry) {
+  const favorite = !!entry.favorite;
+  const note = entry.note || "";
+  Object.assign(entry, createEmptyProgressEntry(), { favorite, note, mode: "sinMarcar" });
+  entry.updatedAt = todayLocal();
+}
+
+function moveToAid(entry) {
+  const today = todayLocal();
+  entry.mode = "aid";
+  entry.aidAssignedDate = today;
+  entry.aidLastTouchedDate = null;
+  entry.aidValidDates = [];
+  entry.aidDayCounts = {};
+  entry.aidTouchedEver = false;
+  entry.aidCurrentReveal = false;
+  entry.updatedAt = today;
+}
+
+function moveToAprendidas(entry) {
+  const today = todayLocal();
+  entry.mode = "aprendidas";
+  entry.aidAssignedDate = null;
+  entry.aidLastTouchedDate = null;
+  entry.aidValidDates = [];
+  entry.aidDayCounts = {};
+  entry.aidTouchedEver = false;
+  entry.aidCurrentReveal = false;
+  entry.aprendidasEnteredDate = today;
+  entry.aprendidasStatus = "";
+  entry.aprendidasReveal = false;
+  entry.aprendidasLastClassifiedDate = null;
+  entry.aprendidasSpecialAt = today;
+  entry.aprendidasSpecialPending = false;
+  entry.aprendidasWasSeen = false;
+  entry.updatedAt = today;
+}
+
+function mandarAAid() {
+  const word = obtenerActual();
+  if (!word) return;
+  moveToAid(word.progress);
+  saveWordProgress(word);
+  renderModo();
+}
+
+function toggleFavoritoActual() {
+  const word = obtenerActual();
+  if (!word) return;
+  word.progress.favorite = !word.progress.favorite;
+  word.progress.updatedAt = todayLocal();
+  saveWordProgress(word);
+  mostrar();
+}
+
+function toggleRevealActual() {
+  const word = obtenerActual();
+  if (!word) return;
+  if (word.progress.mode === "aid") word.progress.aidCurrentReveal = !word.progress.aidCurrentReveal;
+  if (word.progress.mode === "aprendidas") word.progress.aprendidasReveal = !word.progress.aprendidasReveal;
+  mostrar();
+}
+
+function abrirModalNota() {
+  const word = obtenerActual();
+  if (!word) return;
+  noteEditingId = word.id;
+  noteTextarea.value = word.progress.note || "";
+  noteModalBackdrop.classList.remove("hidden");
+  setTimeout(() => noteTextarea.focus(), 50);
+}
+
+function cerrarModalNota() {
+  noteEditingId = null;
+  noteTextarea.value = "";
+  noteModalBackdrop.classList.add("hidden");
+}
+
+function guardarModalNota() {
+  if (!noteEditingId) return;
+  const word = data.find(x => x.id === noteEditingId);
+  if (!word) return cerrarModalNota();
+  word.progress.note = noteTextarea.value.trim();
+  word.progress.updatedAt = todayLocal();
+  saveWordProgress(word);
+  cerrarModalNota();
+  if (modoBusqueda && palabraBuscadaId === word.id) mostrarPalabraBuscada();
+  else mostrar();
+}
+
+function sumarAprendidoAid() {
+  const word = obtenerActual();
+  if (!word || word.progress.mode !== "aid") return;
+  const today = todayLocal();
+  const dayIndex = getAidDayIndex(word);
+  const required = AID_LIMITS_BY_DAY[dayIndex];
+  const current = getAidTodayCount(word, today);
+  if (current >= required) {
+    renderModo();
+    return;
+  }
+  const nuevo = current + 1;
+  word.progress.aidDayCounts[today] = nuevo;
+  word.progress.aidTouchedEver = true;
+  word.progress.aidLastTouchedDate = today;
+  word.progress.updatedAt = today;
+  if (nuevo >= required) {
+    if (!word.progress.aidValidDates.includes(today)) {
+      word.progress.aidValidDates.push(today);
+      word.progress.aidValidDates = uniqueDateArray(word.progress.aidValidDates);
+    }
+    if (word.progress.aidValidDates.length >= AID_DAYS_REQUIRED) {
+      moveToAprendidas(word.progress);
+      saveWordProgress(word);
+      alert("Palabra aprendida");
+      renderModo();
+      return;
+    }
+  }
+  saveWordProgress(word);
+  renderModo();
+}
+
+function restarConRepasarAid() {
+  const word = obtenerActual();
+  if (!word || word.progress.mode !== "aid") return;
+  const today = todayLocal();
+  const current = getAidTodayCount(word, today);
+  word.progress.aidDayCounts[today] = Math.max(0, current - 1);
+  word.progress.aidTouchedEver = true;
+  word.progress.aidLastTouchedDate = today;
+  word.progress.updatedAt = today;
+  saveWordProgress(word);
+  renderModo();
+}
+
+function clasificarAprendida(status) {
+  const word = obtenerActual();
+  if (!word || word.progress.mode !== "aprendidas") return;
+  const today = todayLocal();
+  word.progress.aprendidasStatus = status;
+  word.progress.aprendidasWasSeen = true;
+  word.progress.aprendidasSpecialPending = false;
+  word.progress.aprendidasLastClassifiedDate = today;
+  word.progress.aprendidasSpecialAt = today;
+  word.progress.updatedAt = today;
+  saveWordProgress(word);
+  renderModo();
+}
+
+function manejarBusquedaInput(e) {
+  if (!data.length) return;
+  const normalizado = normalizeText(e.target.value);
+  if (normalizado.length < 2) {
+    ocultarSugerencias();
+    return;
+  }
+  const resultados = data.filter((p) => normalizeText(p.espanol).includes(normalizado)).slice(0, 10);
+  mostrarSugerencias(resultados);
+}
+
+function mostrarSugerencias(resultados) {
+  suggestions.innerHTML = "";
+  if (!resultados.length) {
+    suggestions.classList.add("hidden");
+    return;
+  }
+  resultados.forEach((item) => {
+    const btn = document.createElement("button");
+    btn.className = "suggestion-item";
+    btn.type = "button";
+    btn.innerHTML = `${item.espanol}<span class="suggestion-sub">${MODE_LABELS[item.progress.mode] || item.progress.mode}</span>`;
+    btn.addEventListener("click", () => seleccionarSugerencia(item));
+    suggestions.appendChild(btn);
+  });
+  suggestions.classList.remove("hidden");
+}
+
+function ocultarSugerencias() {
+  suggestions.classList.add("hidden");
+}
+
+function seleccionarSugerencia(item) {
+  searchInput.value = item.espanol;
+  ocultarSugerencias();
+  modoBusqueda = true;
+  palabraBuscadaId = item.id;
+  mostrarPalabraBuscada();
+}
+
+function salirBusqueda() {
+  modoBusqueda = false;
+  palabraBuscadaId = null;
+  searchInput.value = "";
+  ocultarSugerencias();
+}
+
+function exportarHistorial() {
+  const payload = {
+    version: EXPORT_VERSION,
+    fechaExportacion: new Date().toISOString(),
+    progreso,
+    examState
+  };
+  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  const fecha = new Date().toISOString().slice(0, 10);
+  a.href = url;
+  a.download = `historial_progreso_v3_${fecha}.json`;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+}
+
+function reiniciar() {
+  if (!confirm("Seguro que quieres borrar todo el progreso?")) return;
+  progreso = {};
+  examState = null;
+  localStorage.removeItem(STORAGE_KEY);
+  fusionarDatos();
+  actualizarStats();
+  salirBusqueda();
+  cargarModo("sinMarcar");
+  alert("El progreso se reinicio.");
+}
+
+function aplicarTemaInicial() {
+  const guardado = localStorage.getItem(THEME_KEY);
+  const dark = guardado === "dark";
+  document.body.classList.toggle("dark", dark);
+  actualizarIconoTema();
+}
+
+function toggleTheme() {
+  const dark = document.body.classList.toggle("dark");
+  localStorage.setItem(THEME_KEY, dark ? "dark" : "light");
+  actualizarIconoTema();
+}
+
+function actualizarIconoTema() {
+  const dark = document.body.classList.contains("dark");
+  document.getElementById("themeToggle").textContent = dark ? "☀️" : "🌙";
+}
+
+function construirExamenOral() {
+  const aidPool = shuffle(data.filter(p => p.progress.mode === "aid"));
+  const aprendidasPool = shuffle(data.filter(p => p.progress.mode === "aprendidas"));
+  const combinadas = [...aidPool, ...aprendidasPool];
+  const ids = combinadas.slice(0, EXAM_MAX_QUESTIONS).map(x => x.id);
+  return {
+    active: true,
+    createdAt: new Date().toISOString(),
+    ids,
+    currentIndex: 0,
+    answers: []
+  };
+}
+
+function renderExamen() {
+  if (!examState || !examState.active || !Array.isArray(examState.ids)) {
+    examState = construirExamenOral();
+    persistirTodo();
+  }
+  const total = examState.ids.length;
+  modoActual.textContent = "Modo: Examen oral";
+  contadorActual.textContent = `${Math.min(examState.currentIndex + 1, Math.max(total, 1))}/${Math.max(total, 1)}`;
+  examProgress.textContent = total ? `Pregunta ${examState.currentIndex + 1}/${total}` : "0/0";
+  if (!total) {
+    examOptions.innerHTML = "";
+    examSourceInfo.textContent = "No hay palabras suficientes en AID o Aprendidas.";
+    return;
+  }
+  if (examState.currentIndex >= total) {
+    finalizarExamen();
+    return;
+  }
+  const currentWord = data.find(x => x.id === examState.ids[examState.currentIndex]);
+  if (!currentWord) {
+    examState.currentIndex += 1;
+    persistirTodo();
+    renderExamen();
+    return;
+  }
+  examSourceInfo.textContent = `Tomada de ${MODE_LABELS[currentWord.progress.mode]}`;
+  const wrongPool = shuffle(data.filter(x => x.id !== currentWord.id).map(x => x.espanol));
+  const options = shuffle([currentWord.espanol, ...wrongPool.slice(0, 5)]);
+  examOptions.innerHTML = "";
+  options.forEach((text) => {
+    const btn = document.createElement("button");
+    btn.className = "exam-option";
+    btn.textContent = text;
+    btn.onclick = () => responderExamen(text);
+    examOptions.appendChild(btn);
+  });
+}
+
+function audioExamenActual() {
+  if (!examState || !examState.ids.length) return;
+  const currentWord = data.find(x => x.id === examState.ids[examState.currentIndex]);
+  if (!currentWord) return;
+  const u = new SpeechSynthesisUtterance(currentWord.ingles);
+  u.lang = "en-US";
+  u.rate = 0.85;
+  u.pitch = 1;
+  speechSynthesis.cancel();
+  speechSynthesis.speak(u);
+}
+
+function responderExamen(selectedText) {
+  const currentWord = data.find(x => x.id === examState.ids[examState.currentIndex]);
+  if (!currentWord) return;
+  examState.answers.push({
+    id: currentWord.id,
+    selected: selectedText,
+    correct: currentWord.espanol,
+    isCorrect: selectedText === currentWord.espanol
+  });
+  examState.currentIndex += 1;
+  persistirTodo();
+  if (examState.currentIndex >= examState.ids.length) finalizarExamen();
+  else renderExamen();
+}
+
+function finalizarExamen() {
+  const total = examState ? examState.answers.length : 0;
+  const correctas = examState ? examState.answers.filter(x => x.isCorrect).length : 0;
+  const errores = examState ? examState.answers.filter(x => !x.isCorrect) : [];
+  resultTitle.textContent = "Resultado";
+  resultScore.textContent = `${correctas}/${total}`;
+  if (!errores.length) {
+    resultBody.innerHTML = `<div class="muted-center">Felicidades</div>`;
+  } else {
+    const html = errores.map((ans) => {
+      const word = data.find(x => x.id === ans.id);
+      const nombre = word ? word.ingles : ans.id;
+      return `<div class="result-item"><div><strong>${nombre}</strong></div><div class="result-wrong">${ans.selected}</div><div class="result-correct">${ans.correct}</div></div>`;
+    }).join("");
+    resultBody.innerHTML = `<div class="result-list">${html}</div>`;
+  }
+  resultModalBackdrop.classList.remove("hidden");
+}
+
+function cerrarModalResultado() {
+  resultModalBackdrop.classList.add("hidden");
+  examState = null;
+  persistirTodo();
+  cargarModo("sinMarcar");
+}
+</script>
+
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => navigator.serviceWorker.register("./service-worker.js"));
+}
+</script>
+
+</body>
+</html>
