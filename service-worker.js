@@ -1,11 +1,11 @@
-const CACHE = "aid-ingles-v2.2";
+const CACHE = "aid-ingles-v2.3";
 
 const ASSETS = [
   "./",
   "./index.html",
   "./manifest.json",
   "./service-worker.js",
-  "./palabras_vocabulario_definitivo.json",
+  "./palabras_vocabulario_definitivo_V2.3.json",
   "./icon-192_V2.png",
   "./icon-512_V2.png"
 ];
