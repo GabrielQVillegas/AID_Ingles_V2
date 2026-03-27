@@ -251,7 +251,7 @@ body.dark .stat-box{background:#1f2937}
 </div>
 
 <script>
-const JSON_URL = "palabras_vocabulario_definitivo_v2.3.json";
+const JSON_URL = "palabras_vocabulario_definitivo_V2.3.json";
 const STORAGE_KEY = "aidAppProgress_v3";
 const LEGACY_KEYS = ["aidAppProgress_v2", "aidAppProgress_v1"];
 const THEME_KEY = "aidAppTheme_v1";
@@ -364,7 +364,7 @@ cargarJsonInicial();
 
 async function cargarJsonInicial() {
   try {
-    const response = await fetch(JSON_URL, { cache: "no-store" });
+    const response = await fetch(JSON_URL);
     if (!response.ok) throw new Error("No se pudo cargar el JSON");
     palabrasBase = await response.json();
     iniciarConDatos();
