@@ -39,7 +39,7 @@ self.addEventListener("fetch", event => {
   const url = new URL(req.url);
 
   // 🔥 JSON siempre actualizado (network-first)
-  if (url.pathname.includes("palabras_vocabulario_definitivo.json")) {
+  if (url.pathname.includes("palabras_vocabulario_definitivo_V2.3.json")) {
     event.respondWith(
       fetch(req)
         .then(response => {
